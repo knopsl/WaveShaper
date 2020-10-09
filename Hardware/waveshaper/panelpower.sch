@@ -326,14 +326,14 @@ NoConn ~ 1300 1100
 $Comp
 L Switch:SW_SPDT SW?
 U 1 1 5F59635B
-P 4850 6700
+P 4350 6450
 AR Path="/5F59635B" Ref="SW?"  Part="1" 
 AR Path="/5F1DEF77/5F59635B" Ref="SW1"  Part="1" 
-F 0 "SW1" H 4850 6985 50  0000 C CNN
-F 1 "SW_SPDT" H 4850 6894 50  0000 C CNN
-F 2 "ao_tht:SPDT-toggle-switch-1M-series" H 4850 6700 50  0001 C CNN
-F 3 "~" H 4850 6700 50  0001 C CNN
-	1    4850 6700
+F 0 "SW1" H 4350 6735 50  0000 C CNN
+F 1 "SW_SPDT" H 4350 6644 50  0000 C CNN
+F 2 "ao_tht:SPDT-toggle-switch-1M-series" H 4350 6450 50  0001 C CNN
+F 3 "~" H 4350 6450 50  0001 C CNN
+	1    4350 6450
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -565,7 +565,7 @@ Wire Notes Line
 Wire Notes Line
 	10300 650  600  650 
 Text Notes 6950 1050 0    50   ~ 0
-Jacks board components
+Jack board components
 Wire Notes Line
 	600  7850 5950 7850
 Wire Notes Line
@@ -1226,11 +1226,11 @@ F 3 "~" H 3150 2900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4650 6800 4550 6800
+	4150 6550 4050 6550
 Wire Wire Line
-	4650 6600 4450 6600
+	4150 6350 3950 6350
 Wire Wire Line
-	5050 6700 5200 6700
+	4550 6450 4700 6450
 $Comp
 L Device:R_POT RV?
 U 1 1 5FA4E2BA
@@ -1270,30 +1270,30 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x03 J11
 U 1 1 5FAAB8EB
-P 4800 7200
-F 0 "J11" V 4672 7012 50  0000 R CNN
-F 1 "Conn_01x03" V 4763 7012 50  0000 R CNN
-F 2 "ao_tht:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 4800 7200 50  0001 C CNN
-F 3 "~" H 4800 7200 50  0001 C CNN
-	1    4800 7200
+P 4300 6950
+F 0 "J11" V 4172 6762 50  0000 R CNN
+F 1 "Conn_01x03" V 4263 6762 50  0000 R CNN
+F 2 "ao_tht:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 4300 6950 50  0001 C CNN
+F 3 "~" H 4300 6950 50  0001 C CNN
+	1    4300 6950
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	4450 6600 4450 7000
+	3950 6350 3950 6750
 Wire Wire Line
-	4450 7000 4700 7000
+	3950 6750 4200 6750
 Wire Wire Line
-	4550 6800 4550 6950
+	4050 6550 4050 6700
 Wire Wire Line
-	4550 6950 4900 6950
+	4050 6700 4400 6700
 Wire Wire Line
-	4900 6950 4900 7000
+	4400 6700 4400 6750
 Wire Wire Line
-	4800 7000 4800 6900
+	4300 6750 4300 6650
 Wire Wire Line
-	4800 6900 5200 6900
+	4300 6650 4700 6650
 Wire Wire Line
-	5200 6900 5200 6700
+	4700 6650 4700 6450
 Wire Wire Line
 	6500 1200 6500 1950
 Text Label 1300 1900 0    50   ~ 0
@@ -1314,18 +1314,18 @@ Text Label 7400 2150 0    50   ~ 0
 CVIN_-2
 Text Label 8600 2150 0    50   ~ 0
 CVIN_-3
-Text Label 5050 6700 0    50   ~ 0
+Text Label 4550 6450 0    50   ~ 0
 SLEW
-Text Label 4650 6600 2    50   ~ 0
+Text Label 4150 6350 2    50   ~ 0
 SL_MED
-Text Label 4650 6800 2    50   ~ 0
+Text Label 4150 6550 2    50   ~ 0
 SL_HIGH
 Connection ~ 3100 6600
 Wire Wire Line
 	3100 6600 3100 6750
-Text Notes 2900 6050 0    50   ~ 0
-Level pot
-Text Notes 3000 7500 0    50   ~ 0
+Text Notes 2550 6050 0    50   ~ 0
+Level pot\n10Vpp output with 0–10V CV. \nUse 200k pot with 0–5V CV.
+Text Notes 2850 7300 0    50   ~ 0
 Level pot and slew switch connect to Barton PCB \nvia wires with Molex connectors
 Text Notes 650  800  0    50   ~ 0
 In and out jacks connect to Barton PCB  \nvia wires with Molex connectors
@@ -1344,4 +1344,6 @@ Text Label 3100 6750 0    50   ~ 0
 LEVEL_WIPER
 Text Label 2950 6750 2    50   ~ 0
 LEVEL_CCW
+Text Notes 1000 7100 0    50   ~ 0
+Modify resistor values for +5V\nif 0–5V CV desired.
 $EndSCHEMATC

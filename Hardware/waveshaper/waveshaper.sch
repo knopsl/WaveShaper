@@ -60,38 +60,38 @@ CV_+3
 $Comp
 L 4xxx:4066 U4
 U 1 1 5F064429
-P 5700 4800
-F 0 "U4" V 5746 4672 50  0000 R CNN
-F 1 "4066" V 5655 4672 50  0000 R CNN
-F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 5700 4800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 5700 4800 50  0001 C CNN
-	1    5700 4800
+P 5700 4750
+F 0 "U4" V 5746 4622 50  0000 R CNN
+F 1 "4066" V 5655 4622 50  0000 R CNN
+F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 5700 4750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 5700 4750 50  0001 C CNN
+	1    5700 4750
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5150 3200 5400 3200
+	5150 3150 5400 3150
 Wire Wire Line
-	5150 4000 5400 4000
+	5150 3950 5400 3950
 Wire Wire Line
-	5150 4800 5400 4800
-Text GLabel 5700 3500 0    50   Input ~ 0
+	5150 4750 5400 4750
+Text GLabel 5700 3450 0    50   Input ~ 0
 CV_+2
-Text GLabel 5700 4300 0    50   Input ~ 0
+Text GLabel 5700 4250 0    50   Input ~ 0
 CV_0
-Text GLabel 5700 5100 0    50   Input ~ 0
+Text GLabel 5700 5050 0    50   Input ~ 0
 CV_-2
 Wire Wire Line
-	5150 5050 5150 4800
+	5150 5050 5150 4750
 Wire Wire Line
-	5150 4250 5150 4000
+	5150 4250 5150 3950
 Wire Wire Line
-	5150 3450 5150 3200
+	5150 3450 5150 3150
 Wire Wire Line
-	5700 2850 5700 2900
+	5700 2800 5700 2850
 Wire Wire Line
-	5700 3650 5700 3700
+	5700 3600 5700 3650
 Wire Wire Line
-	5700 4450 5700 4500
+	5700 4400 5700 4450
 Wire Wire Line
 	3900 3050 4300 3050
 Wire Wire Line
@@ -106,78 +106,78 @@ Wire Wire Line
 	4000 4250 5150 4250
 Wire Wire Line
 	4050 3850 4300 3850
-Connection ~ 6150 4450
+Connection ~ 6150 4400
 Wire Wire Line
-	5700 4450 6150 4450
+	5700 4400 6150 4400
 $Comp
 L power:GND #PWR025
 U 1 1 5F07ECAB
-P 6150 4750
-F 0 "#PWR025" H 6150 4500 50  0001 C CNN
-F 1 "GND" H 6155 4577 50  0000 C CNN
-F 2 "" H 6150 4750 50  0001 C CNN
-F 3 "" H 6150 4750 50  0001 C CNN
-	1    6150 4750
+P 6150 4700
+F 0 "#PWR025" H 6150 4450 50  0001 C CNN
+F 1 "GND" H 6155 4527 50  0000 C CNN
+F 2 "" H 6150 4700 50  0001 C CNN
+F 3 "" H 6150 4700 50  0001 C CNN
+	1    6150 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R14
 U 1 1 5F04F04C
-P 6150 4600
-F 0 "R14" H 6220 4646 50  0000 L CNN
-F 1 "100k" H 6220 4555 50  0000 L CNN
-F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6080 4600 50  0001 C CNN
-F 3 "~" H 6150 4600 50  0001 C CNN
-	1    6150 4600
+P 6150 4550
+F 0 "R14" H 6220 4596 50  0000 L CNN
+F 1 "10k" H 6220 4505 50  0000 L CNN
+F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6080 4550 50  0001 C CNN
+F 3 "~" H 6150 4550 50  0001 C CNN
+	1    6150 4550
 	1    0    0    -1  
 $EndComp
-Connection ~ 6150 3650
+Connection ~ 6150 3600
 Wire Wire Line
-	5700 3650 6150 3650
+	5700 3600 6150 3600
 $Comp
 L power:GND #PWR024
 U 1 1 5F07F709
-P 6150 3950
-F 0 "#PWR024" H 6150 3700 50  0001 C CNN
-F 1 "GND" H 6155 3777 50  0000 C CNN
-F 2 "" H 6150 3950 50  0001 C CNN
-F 3 "" H 6150 3950 50  0001 C CNN
-	1    6150 3950
+P 6150 3900
+F 0 "#PWR024" H 6150 3650 50  0001 C CNN
+F 1 "GND" H 6155 3727 50  0000 C CNN
+F 2 "" H 6150 3900 50  0001 C CNN
+F 3 "" H 6150 3900 50  0001 C CNN
+	1    6150 3900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R13
 U 1 1 5F07C8DE
-P 6150 3800
-F 0 "R13" H 6220 3846 50  0000 L CNN
-F 1 "100k" H 6220 3755 50  0000 L CNN
-F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6080 3800 50  0001 C CNN
-F 3 "~" H 6150 3800 50  0001 C CNN
-	1    6150 3800
+P 6150 3750
+F 0 "R13" H 6220 3796 50  0000 L CNN
+F 1 "10k" H 6220 3705 50  0000 L CNN
+F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6080 3750 50  0001 C CNN
+F 3 "~" H 6150 3750 50  0001 C CNN
+	1    6150 3750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5700 2850 6150 2850
+	5700 2800 6150 2800
 $Comp
 L power:GND #PWR023
 U 1 1 5F07FC36
-P 6150 3150
-F 0 "#PWR023" H 6150 2900 50  0001 C CNN
-F 1 "GND" H 6155 2977 50  0000 C CNN
-F 2 "" H 6150 3150 50  0001 C CNN
-F 3 "" H 6150 3150 50  0001 C CNN
-	1    6150 3150
+P 6150 3100
+F 0 "#PWR023" H 6150 2850 50  0001 C CNN
+F 1 "GND" H 6155 2927 50  0000 C CNN
+F 2 "" H 6150 3100 50  0001 C CNN
+F 3 "" H 6150 3100 50  0001 C CNN
+	1    6150 3100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R12
 U 1 1 5F07C33D
-P 6150 3000
-F 0 "R12" H 6220 3046 50  0000 L CNN
-F 1 "100k" H 6220 2955 50  0000 L CNN
-F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6080 3000 50  0001 C CNN
-F 3 "~" H 6150 3000 50  0001 C CNN
-	1    6150 3000
+P 6150 2950
+F 0 "R12" H 6220 2996 50  0000 L CNN
+F 1 "10k" H 6220 2905 50  0000 L CNN
+F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6080 2950 50  0001 C CNN
+F 3 "~" H 6150 2950 50  0001 C CNN
+	1    6150 2950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -196,7 +196,7 @@ L Device:R R11
 U 1 1 5F04EB26
 P 5000 5300
 F 0 "R11" H 5070 5346 50  0000 L CNN
-F 1 "100k" H 5070 5255 50  0000 L CNN
+F 1 "10k" H 5070 5255 50  0000 L CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4930 5300 50  0001 C CNN
 F 3 "~" H 5000 5300 50  0001 C CNN
 	1    5000 5300
@@ -218,7 +218,7 @@ L Device:R R10
 U 1 1 5F04E1E9
 P 5000 4500
 F 0 "R10" H 5070 4546 50  0000 L CNN
-F 1 "100k" H 5070 4455 50  0000 L CNN
+F 1 "10k" H 5070 4455 50  0000 L CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4930 4500 50  0001 C CNN
 F 3 "~" H 5000 4500 50  0001 C CNN
 	1    5000 4500
@@ -240,7 +240,7 @@ L Device:R R9
 U 1 1 5F04DE0C
 P 5000 3700
 F 0 "R9" H 5070 3746 50  0000 L CNN
-F 1 "100k" H 5070 3655 50  0000 L CNN
+F 1 "10k" H 5070 3655 50  0000 L CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4930 3700 50  0001 C CNN
 F 3 "~" H 5000 3700 50  0001 C CNN
 	1    5000 3700
@@ -262,30 +262,18 @@ L Device:R R8
 U 1 1 5F04D4E6
 P 5000 2900
 F 0 "R8" H 5070 2946 50  0000 L CNN
-F 1 "100k" H 5070 2855 50  0000 L CNN
+F 1 "10k" H 5070 2855 50  0000 L CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4930 2900 50  0001 C CNN
 F 3 "~" H 5000 2900 50  0001 C CNN
 	1    5000 2900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5000 3550 5300 3550
-Wire Wire Line
-	5300 3550 5300 3600
 Connection ~ 5000 3550
 Wire Wire Line
-	6150 3650 6500 3650
-Wire Wire Line
-	5000 4350 5300 4350
-Wire Wire Line
-	5300 4350 5300 4400
+	6150 3600 6500 3600
 Connection ~ 5000 4350
 Wire Wire Line
-	6150 4450 6500 4450
-Wire Wire Line
-	5000 5150 5300 5150
-Wire Wire Line
-	5300 5150 5300 5200
+	6150 4400 6500 4400
 Connection ~ 5000 5150
 Connection ~ 7450 5250
 Wire Wire Line
@@ -335,46 +323,34 @@ F 3 "~" H 3600 3650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6150 2850 6500 2850
-Connection ~ 6150 2850
-Wire Wire Line
-	5000 2750 5300 2750
-Wire Wire Line
-	5300 2750 5300 2800
-Text GLabel 6600 2800 2    50   Output ~ 0
+	6150 2800 6500 2800
+Connection ~ 6150 2800
+Text GLabel 6600 2750 2    50   Output ~ 0
 MIXIN_+3
 Text GLabel 6600 2950 2    50   Output ~ 0
 MIXIN_+2
-Text GLabel 6600 3600 2    50   Output ~ 0
+Text GLabel 6600 3550 2    50   Output ~ 0
 MIXIN_+1
 Text GLabel 6600 3750 2    50   Output ~ 0
 MIXIN_0
 Wire Wire Line
-	5300 2800 6600 2800
-Wire Wire Line
-	6500 2850 6500 2950
+	6500 2800 6500 2950
 Wire Wire Line
 	6500 2950 6600 2950
 Wire Wire Line
-	5300 3600 6600 3600
-Wire Wire Line
-	6500 3650 6500 3750
+	6500 3600 6500 3750
 Wire Wire Line
 	6500 3750 6600 3750
-Text GLabel 6600 4400 2    50   Output ~ 0
+Text GLabel 6600 4350 2    50   Output ~ 0
 MIXIN_-1
 Text GLabel 6600 4550 2    50   Output ~ 0
 MIXIN_-2
-Text GLabel 6600 5200 2    50   Output ~ 0
+Text GLabel 6600 5150 2    50   Output ~ 0
 MIXIN_-3
 Wire Wire Line
-	5300 5200 6600 5200
-Wire Wire Line
-	6500 4450 6500 4550
+	6500 4400 6500 4550
 Wire Wire Line
 	6500 4550 6600 4550
-Wire Wire Line
-	5300 4400 6600 4400
 Text GLabel 3300 3650 0    50   Input ~ 0
 MIXIN_0
 Text GLabel 3300 3850 0    50   Input ~ 0
@@ -387,12 +363,12 @@ Connection ~ 5000 2750
 $Comp
 L 4xxx:4066 U5
 U 4 1 5F06441D
-P 5700 3200
-F 0 "U5" V 5746 3072 50  0000 R CNN
-F 1 "4066" V 5655 3072 50  0000 R CNN
-F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 5700 3200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 5700 3200 50  0001 C CNN
-	4    5700 3200
+P 5700 3150
+F 0 "U5" V 5746 3022 50  0000 R CNN
+F 1 "4066" V 5655 3022 50  0000 R CNN
+F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 5700 3150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 5700 3150 50  0001 C CNN
+	4    5700 3150
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -420,12 +396,12 @@ $EndComp
 $Comp
 L 4xxx:4066 U5
 U 2 1 5F064423
-P 5700 4000
-F 0 "U5" V 5746 3872 50  0000 R CNN
-F 1 "4066" V 5655 3872 50  0000 R CNN
-F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 5700 4000 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 5700 4000 50  0001 C CNN
-	2    5700 4000
+P 5700 3950
+F 0 "U5" V 5746 3822 50  0000 R CNN
+F 1 "4066" V 5655 3822 50  0000 R CNN
+F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 5700 3950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 5700 3950 50  0001 C CNN
+	2    5700 3950
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -473,5 +449,13 @@ RIPOUT_-1
 Text Label 3800 3950 0    50   ~ 0
 RIPOUT_-2
 Text Notes 1150 1800 0    50   ~ 0
-This is used in conjunction with Barton's original PCB,\nbuilt with these changes:\n* Pots omitted\n* Output capacitors moved to pots pads 2-3 (value modified?)\n* Ribbon cable mounted at capacitors pads\n* Output stage feedback resistor omitted, pot wired to its pads\n* Shrouded power header replaced by open pin header on underside\n* 10 uF rail to ground capacitors omitted\n* 10R capacitors replaced with 0R (or jumpers)\n* 10 mm M2.5 spacer glued to underside\n
+This is used in conjunction with Barton's original PCB,\nbuilt with these changes:\n• Pots omitted\n• Output capacitors moved to pots pads 2-3\n• Ribbon cable mounted at capacitors pads\n• Output stage feedback resistor omitted, 100k* pot wired to its pads\n• Shrouded power header replaced by open pin header on underside\n• 10 uF rail to ground capacitors omitted\n• 10R capacitors replaced with 0R (or jumpers)\n• 10 mm M3 nylon spacer glued to underside\n\n*10Vpp output with 0–10V CV. Use 200k pot with 0–5V CV.
+Wire Wire Line
+	5000 2750 6600 2750
+Wire Wire Line
+	5000 3550 6600 3550
+Wire Wire Line
+	5000 4350 6600 4350
+Wire Wire Line
+	5000 5150 6600 5150
 $EndSCHEMATC
