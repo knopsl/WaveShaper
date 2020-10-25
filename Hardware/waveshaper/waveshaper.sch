@@ -317,7 +317,7 @@ U 1 1 5F98391F
 P 3600 3650
 F 0 "J10" H 3600 4200 50  0000 L CNN
 F 1 "2x7 IDC header" H 3400 4100 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical" H 3600 3650 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x07_P2.54mm_Vertical" H 3600 3650 50  0001 C CNN
 F 3 "~" H 3600 3650 50  0001 C CNN
 	1    3600 3650
 	-1   0    0    -1  
