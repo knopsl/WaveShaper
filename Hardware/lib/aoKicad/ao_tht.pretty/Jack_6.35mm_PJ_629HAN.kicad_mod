@@ -1,4 +1,4 @@
-(module Jack_6.35mm_PJ_629HAN (layer F.Cu) (tedit 602FC254)
+(module Jack_6.35mm_PJ_629HAN (layer F.Cu) (tedit 610735D7)
   (fp_text reference REF** (at 0 -9.5) (layer F.SilkS)
     (effects (font (size 0.75 0.75) (thickness 0.15)))
   )
@@ -26,4 +26,14 @@
   (pad R thru_hole circle (at 0.5 -6.4) (size 4.500001 4.500001) (drill 2.7) (layers *.Cu *.Mask))
   (pad TN thru_hole circle (at -2.5 6.4) (size 4.5 4.5) (drill 2.7) (layers *.Cu *.Mask))
   (pad RN thru_hole circle (at 6.4 -2.5) (size 4.500001 4.500001) (drill 2.7) (layers *.Cu *.Mask))
+  (model "/home/rsholmes/Documents/Hobbies/Electronics/KiCad/Libraries/kicadfootprints/3D/User Library-jack-4.step"
+    (offset (xyz 0 0 23))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "/home/rsholmes/.config/kicad/3d/User Library-jack-4.STEP"
+    (offset (xyz 0 0 23))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
