@@ -5,22 +5,22 @@
     {
       "Vendor":      "KiCad",
       "Application": "Pcbnew",
-      "Version":     "5.1.6-c6e7f7d~87~ubuntu20.04.1"
+      "Version":     "5.1.10-88a1d61d58~90~ubuntu20.04.1"
     },
-    "CreationDate":  "2020-10-29T23:20:03-04:00"
+    "CreationDate":  "2021-08-12T10:43:18-04:00"
   },
   "GeneralSpecs":
   {
     "ProjectId":
     {
-      "Name": "waveshaper-aux",
-      "GUID": "77617665-7368-4617-9065-722d6175782e",
+      "Name": "waveshaper",
+      "GUID": "77617665-7368-4617-9065-722e6b696361",
       "Revision": "rev?"
     },
     "Size":
     {
-      "X": 81.050,
-      "Y": 174.050
+      "X": 87.050,
+      "Y": 163.050
     },
     "LayerNumber": 2,
     "BoardThickness":  1.600
@@ -40,47 +40,47 @@
   "FilesAttributes":
   [
     {
-      "Path":  "waveshaper-aux-F_Cu.gbr",
+      "Path":  "waveshaper-F_Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "waveshaper-aux-B_Cu.gbr",
+      "Path":  "waveshaper-B_Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "waveshaper-aux-F_Paste.gbr",
+      "Path":  "waveshaper-F_Paste.gbr",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "waveshaper-aux-B_Paste.gbr",
+      "Path":  "waveshaper-B_Paste.gbr",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "waveshaper-aux-F_SilkS.gbr",
+      "Path":  "waveshaper-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "waveshaper-aux-B_SilkS.gbr",
+      "Path":  "waveshaper-B_SilkS.gbr",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "waveshaper-aux-F_Mask.gbr",
+      "Path":  "waveshaper-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "waveshaper-aux-B_Mask.gbr",
+      "Path":  "waveshaper-B_Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "waveshaper-aux-Edge_Cuts.gbr",
+      "Path":  "waveshaper-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }
