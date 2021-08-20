@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name waveshaper)(type KiCad)(uri ${KIPRJMOD}/waveshaper.pretty)(options "")(descr ""))
-  (lib (name Kosmo_panel)(type KiCad)(uri ${KIPRJMOD}/../../lib/Kosmo_panel/Kosmo_panel.pretty)(options "")(descr ""))
-)
