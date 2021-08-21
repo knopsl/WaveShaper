@@ -1,4 +1,3 @@
 (fp_lib_table
   (lib (name waveshaper)(type KiCad)(uri ${KIPRJMOD}/waveshaper.pretty)(options "")(descr ""))
-  (lib (name ao_tht)(type KiCad)(uri ${KIPRJMOD}/../../lib/aoKicad/ao_tht.pretty)(options "")(descr ""))
 )
