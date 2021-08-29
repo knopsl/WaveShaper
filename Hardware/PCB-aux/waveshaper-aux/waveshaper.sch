@@ -27,6 +27,8 @@ F 0 "U1" V 4646 3722 50  0000 R CNN
 F 1 "4066" V 4555 3722 50  0000 R CNN
 F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 4600 3850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 4600 3850 50  0001 C CNN
+F 4 "Tayda" V 4600 3850 50  0001 C CNN "Vendor"
+F 5 "A-555" V 4600 3850 50  0001 C CNN "SKU"
 	1    4600 3850
 	0    -1   -1   0   
 $EndComp
@@ -65,6 +67,8 @@ F 0 "U2" V 5746 4622 50  0000 R CNN
 F 1 "4066" V 5655 4622 50  0000 R CNN
 F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 5700 4750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 5700 4750 50  0001 C CNN
+F 4 "Tayda" V 5700 4750 50  0001 C CNN "Vendor"
+F 5 "A-555" V 5700 4750 50  0001 C CNN "SKU"
 	1    5700 4750
 	0    -1   -1   0   
 $EndComp
@@ -319,6 +323,8 @@ F 0 "J1" H 3600 4200 50  0000 L CNN
 F 1 "2x7 IDC header" H 3400 4100 50  0000 L CNN
 F 2 "Connector_IDC:IDC-Header_2x07_P2.54mm_Vertical" H 3600 3650 50  0001 C CNN
 F 3 "~" H 3600 3650 50  0001 C CNN
+F 4 "A-3349" H 3600 3650 50  0001 C CNN "SKU"
+F 5 "Tayda" H 3600 3650 50  0001 C CNN "Vendor"
 	1    3600 3650
 	-1   0    0    -1  
 $EndComp

@@ -140,7 +140,7 @@ F 3 "" H 4000 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C?
+L ao_symbols:CP C?
 U 1 1 5F2680AB
 P 4300 5350
 AR Path="/5F1DEF77/5F25E2E1/5F2680AB" Ref="C?"  Part="1" 
@@ -149,11 +149,13 @@ F 0 "C2" H 4418 5396 50  0000 L CNN
 F 1 "10uF" H 4418 5305 50  0000 L CNN
 F 2 "ao_tht:CP_Radial_D5.0mm_P2.00mm" H 4338 5200 50  0001 C CNN
 F 3 "~" H 4300 5350 50  0001 C CNN
+F 4 "Tayda" H 4300 5350 50  0001 C CNN "Vendor"
+F 5 "A-4349" H 4300 5350 50  0001 C CNN "SKU"
 	1    4300 5350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C?
+L ao_symbols:CP C?
 U 1 1 5F2680A5
 P 4300 5050
 AR Path="/5F1DEF77/5F25E2E1/5F2680A5" Ref="C?"  Part="1" 
@@ -162,6 +164,8 @@ F 0 "C1" H 4418 5096 50  0000 L CNN
 F 1 "10uF" H 4418 5005 50  0000 L CNN
 F 2 "ao_tht:CP_Radial_D5.0mm_P2.00mm" H 4338 4900 50  0001 C CNN
 F 3 "~" H 4300 5050 50  0001 C CNN
+F 4 "Tayda" H 4300 5050 50  0001 C CNN "Vendor"
+F 5 "A-4349" H 4300 5050 50  0001 C CNN "SKU"
 	1    4300 5050
 	1    0    0    -1  
 $EndComp
@@ -176,6 +180,8 @@ F 0 "J5" H 1650 5647 60  0000 C CNN
 F 1 "EURO_PWR_2x5" H 1650 5541 60  0000 C CNN
 F 2 "ao_tht:Power_Header" H 1650 5200 60  0001 C CNN
 F 3 "" H 1650 5200 60  0001 C CNN
+F 4 "A-2939" H 1650 5200 50  0001 C CNN "SKU"
+F 5 "Tayda" H 1650 5200 50  0001 C CNN "Vendor"
 	1    1650 5200
 	1    0    0    -1  
 $EndComp
@@ -194,7 +200,7 @@ CV_-2
 Text GLabel 9350 3950 2    50   Output ~ 0
 CV_-3
 $Comp
-L Connector:AudioJack2_SwitchT J?
+L ao_symbols:AudioJack2_SwitchT J?
 U 1 1 5FB45279
 P 4550 1200
 AR Path="/5FB45279" Ref="J?"  Part="1" 
@@ -203,11 +209,13 @@ F 0 "J12" H 4600 850 50  0000 R CNN
 F 1 "AudioJack2_SwitchT" H 4925 950 50  0000 R CNN
 F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 4550 1200 50  0001 C CNN
 F 3 "~" H 4550 1200 50  0001 C CNN
+F 4 "A-1121" H 4550 1200 50  0001 C CNN "SKU"
+F 5 "Tayda" H 4550 1200 50  0001 C CNN "Vendor"
 	1    4550 1200
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector:AudioJack2_SwitchT J?
+L ao_symbols:AudioJack2_SwitchT J?
 U 1 1 5FB4A784
 P 6000 2150
 AR Path="/5FB4A784" Ref="J?"  Part="1" 
@@ -216,11 +224,13 @@ F 0 "J15" H 6050 1800 50  0000 R CNN
 F 1 "AudioJack2_SwitchT" H 6375 1900 50  0000 R CNN
 F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 6000 2150 50  0001 C CNN
 F 3 "~" H 6000 2150 50  0001 C CNN
+F 4 "A-1121" H 6000 2150 50  0001 C CNN "SKU"
+F 5 "Tayda" H 6000 2150 50  0001 C CNN "Vendor"
 	1    6000 2150
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector:AudioJack2_SwitchT J?
+L ao_symbols:AudioJack2_SwitchT J?
 U 1 1 5FB4D39B
 P 5750 1200
 AR Path="/5FB4D39B" Ref="J?"  Part="1" 
@@ -229,11 +239,13 @@ F 0 "J14" H 5800 850 50  0000 R CNN
 F 1 "AudioJack2_SwitchT" H 6125 950 50  0000 R CNN
 F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 5750 1200 50  0001 C CNN
 F 3 "~" H 5750 1200 50  0001 C CNN
+F 4 "A-1121" H 5750 1200 50  0001 C CNN "SKU"
+F 5 "Tayda" H 5750 1200 50  0001 C CNN "Vendor"
 	1    5750 1200
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector:AudioJack2_SwitchT J?
+L ao_symbols:AudioJack2_SwitchT J?
 U 1 1 5FB504B8
 P 7200 2150
 AR Path="/5FB504B8" Ref="J?"  Part="1" 
@@ -242,11 +254,13 @@ F 0 "J16" H 7250 1800 50  0000 R CNN
 F 1 "AudioJack2_SwitchT" H 7575 1900 50  0000 R CNN
 F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 7200 2150 50  0001 C CNN
 F 3 "~" H 7200 2150 50  0001 C CNN
+F 4 "A-1121" H 7200 2150 50  0001 C CNN "SKU"
+F 5 "Tayda" H 7200 2150 50  0001 C CNN "Vendor"
 	1    7200 2150
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector:AudioJack2_SwitchT J?
+L ao_symbols:AudioJack2_SwitchT J?
 U 1 1 5FB53AD4
 P 8400 2150
 AR Path="/5FB53AD4" Ref="J?"  Part="1" 
@@ -255,22 +269,26 @@ F 0 "J17" H 8450 1800 50  0000 R CNN
 F 1 "AudioJack2_SwitchT" H 8775 1900 50  0000 R CNN
 F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 8400 2150 50  0001 C CNN
 F 3 "~" H 8400 2150 50  0001 C CNN
+F 4 "A-1121" H 8400 2150 50  0001 C CNN "SKU"
+F 5 "Tayda" H 8400 2150 50  0001 C CNN "Vendor"
 	1    8400 2150
 	1    0    0    1   
 $EndComp
 $Comp
-L Diode:1N4148 D1
+L ao_symbols:1N4148 D1
 U 1 1 5FB53ADA
 P 1850 3650
 F 0 "D1" H 1850 3433 50  0000 C CNN
 F 1 "1N4148" H 1850 3524 50  0000 C CNN
 F 2 "ao_tht:D_DO-35_SOD27_P7.62mm_Horizontal" H 1850 3475 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1850 3650 50  0001 C CNN
+F 4 "A-157" H 1850 3650 50  0001 C CNN "SKU"
+F 5 "Tayda" H 1850 3650 50  0001 C CNN "Vendor"
 	1    1850 3650
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:AudioJack2_SwitchT J?
+L ao_symbols:AudioJack2_SwitchT J?
 U 1 1 5FB56B05
 P 3350 1200
 AR Path="/5FB56B05" Ref="J?"  Part="1" 
@@ -279,11 +297,13 @@ F 0 "J10" H 3400 850 50  0000 R CNN
 F 1 "AudioJack2_SwitchT" H 3725 950 50  0000 R CNN
 F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 3350 1200 50  0001 C CNN
 F 3 "~" H 3350 1200 50  0001 C CNN
+F 4 "A-1121" H 3350 1200 50  0001 C CNN "SKU"
+F 5 "Tayda" H 3350 1200 50  0001 C CNN "Vendor"
 	1    3350 1200
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector:AudioJack2_SwitchT J?
+L ao_symbols:AudioJack2_SwitchT J?
 U 1 1 5FB63BE8
 P 2250 1200
 AR Path="/5FB63BE8" Ref="J?"  Part="1" 
@@ -292,11 +312,13 @@ F 0 "J6" H 2300 850 50  0000 R CNN
 F 1 "AudioJack2_SwitchT" H 2625 950 50  0000 R CNN
 F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 2250 1200 50  0001 C CNN
 F 3 "~" H 2250 1200 50  0001 C CNN
+F 4 "A-1121" H 2250 1200 50  0001 C CNN "SKU"
+F 5 "Tayda" H 2250 1200 50  0001 C CNN "Vendor"
 	1    2250 1200
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector:AudioJack2_SwitchT J?
+L ao_symbols:AudioJack2_SwitchT J?
 U 1 1 5FB0D36D
 P 1100 1200
 AR Path="/5FB0D36D" Ref="J?"  Part="1" 
@@ -305,11 +327,13 @@ F 0 "J2" H 1150 850 50  0000 R CNN
 F 1 "AudioJack2_SwitchT" H 1475 950 50  0000 R CNN
 F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 1100 1200 50  0001 C CNN
 F 3 "~" H 1100 1200 50  0001 C CNN
+F 4 "A-1121" H 1100 1200 50  0001 C CNN "SKU"
+F 5 "Tayda" H 1100 1200 50  0001 C CNN "Vendor"
 	1    1100 1200
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector:AudioJack2_SwitchT J?
+L ao_symbols:AudioJack2_SwitchT J?
 U 1 1 5FB0DC9B
 P 1100 1900
 AR Path="/5FB0DC9B" Ref="J?"  Part="1" 
@@ -318,13 +342,15 @@ F 0 "J3" H 1150 1550 50  0000 R CNN
 F 1 "AudioJack2_SwitchT" H 1475 1650 50  0000 R CNN
 F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 1100 1900 50  0001 C CNN
 F 3 "~" H 1100 1900 50  0001 C CNN
+F 4 "A-1121" H 1100 1900 50  0001 C CNN "SKU"
+F 5 "Tayda" H 1100 1900 50  0001 C CNN "Vendor"
 	1    1100 1900
 	1    0    0    1   
 $EndComp
 NoConn ~ 1300 1800
 NoConn ~ 1300 1100
 $Comp
-L Switch:SW_SPDT SW?
+L ao_symbols:SW_SPDT SW?
 U 1 1 5F59635B
 P 4350 6450
 AR Path="/5F59635B" Ref="SW?"  Part="1" 
@@ -333,6 +359,8 @@ F 0 "SW1" H 4350 6735 50  0000 C CNN
 F 1 "SW_SPDT" H 4350 6644 50  0000 C CNN
 F 2 "ao_tht:SPDT-toggle-switch-1M-series" H 4350 6450 50  0001 C CNN
 F 3 "~" H 4350 6450 50  0001 C CNN
+F 4 "A-3187" H 4350 6450 50  0001 C CNN "SKU"
+F 5 "Tayda" H 4350 6450 50  0001 C CNN "Vendor"
 	1    4350 6450
 	-1   0    0    -1  
 $EndComp
@@ -352,7 +380,7 @@ F 3 "" H 9150 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_POT RV?
+L ao_symbols:R_POT RV?
 U 1 1 5FAEB01F
 P 9150 3950
 AR Path="/5FAEB01F" Ref="RV?"  Part="1" 
@@ -361,6 +389,8 @@ F 0 "RV8" H 9081 3904 50  0000 R CNN
 F 1 "B100k" H 9081 3995 50  0000 R CNN
 F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered" H 9150 3950 50  0001 C CNN
 F 3 "~" H 9150 3950 50  0001 C CNN
+F 4 "A-1848" H 9150 3950 50  0001 C CNN "SKU"
+F 5 "Tayda" H 9150 3950 50  0001 C CNN "Vendor"
 	1    9150 3950
 	1    0    0    1   
 $EndComp
@@ -380,7 +410,7 @@ F 3 "" H 7950 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_POT RV?
+L ao_symbols:R_POT RV?
 U 1 1 5FAE8BFF
 P 7950 3950
 AR Path="/5FAE8BFF" Ref="RV?"  Part="1" 
@@ -389,6 +419,8 @@ F 0 "RV7" H 7881 3904 50  0000 R CNN
 F 1 "B100k" H 7881 3995 50  0000 R CNN
 F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered" H 7950 3950 50  0001 C CNN
 F 3 "~" H 7950 3950 50  0001 C CNN
+F 4 "A-1848" H 7950 3950 50  0001 C CNN "SKU"
+F 5 "Tayda" H 7950 3950 50  0001 C CNN "Vendor"
 	1    7950 3950
 	1    0    0    1   
 $EndComp
@@ -408,7 +440,7 @@ F 3 "" H 6750 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_POT RV?
+L ao_symbols:R_POT RV?
 U 1 1 5FAE3F39
 P 6750 3950
 AR Path="/5FAE3F39" Ref="RV?"  Part="1" 
@@ -417,6 +449,8 @@ F 0 "RV6" H 6681 3904 50  0000 R CNN
 F 1 "B100k" H 6681 3995 50  0000 R CNN
 F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered" H 6750 3950 50  0001 C CNN
 F 3 "~" H 6750 3950 50  0001 C CNN
+F 4 "A-1848" H 6750 3950 50  0001 C CNN "SKU"
+F 5 "Tayda" H 6750 3950 50  0001 C CNN "Vendor"
 	1    6750 3950
 	1    0    0    1   
 $EndComp
@@ -436,7 +470,7 @@ F 3 "" H 5550 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_POT RV?
+L ao_symbols:R_POT RV?
 U 1 1 5FAE1BD5
 P 5550 3950
 AR Path="/5FAE1BD5" Ref="RV?"  Part="1" 
@@ -445,6 +479,8 @@ F 0 "RV5" H 5481 3904 50  0000 R CNN
 F 1 "B100k" H 5481 3995 50  0000 R CNN
 F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered" H 5550 3950 50  0001 C CNN
 F 3 "~" H 5550 3950 50  0001 C CNN
+F 4 "A-1848" H 5550 3950 50  0001 C CNN "SKU"
+F 5 "Tayda" H 5550 3950 50  0001 C CNN "Vendor"
 	1    5550 3950
 	1    0    0    1   
 $EndComp
@@ -464,7 +500,7 @@ F 3 "" H 4350 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_POT RV?
+L ao_symbols:R_POT RV?
 U 1 1 5FAE0325
 P 4350 3950
 AR Path="/5FAE0325" Ref="RV?"  Part="1" 
@@ -473,6 +509,8 @@ F 0 "RV4" H 4281 3904 50  0000 R CNN
 F 1 "B100k" H 4281 3995 50  0000 R CNN
 F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered" H 4350 3950 50  0001 C CNN
 F 3 "~" H 4350 3950 50  0001 C CNN
+F 4 "A-1848" H 4350 3950 50  0001 C CNN "SKU"
+F 5 "Tayda" H 4350 3950 50  0001 C CNN "Vendor"
 	1    4350 3950
 	1    0    0    1   
 $EndComp
@@ -492,7 +530,7 @@ F 3 "" H 3150 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_POT RV?
+L ao_symbols:R_POT RV?
 U 1 1 5FADE261
 P 3150 3950
 AR Path="/5FADE261" Ref="RV?"  Part="1" 
@@ -501,6 +539,8 @@ F 0 "RV3" H 3081 3904 50  0000 R CNN
 F 1 "B100k" H 3081 3995 50  0000 R CNN
 F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered" H 3150 3950 50  0001 C CNN
 F 3 "~" H 3150 3950 50  0001 C CNN
+F 4 "A-1848" H 3150 3950 50  0001 C CNN "SKU"
+F 5 "Tayda" H 3150 3950 50  0001 C CNN "Vendor"
 	1    3150 3950
 	1    0    0    1   
 $EndComp
@@ -520,7 +560,7 @@ F 3 "" H 1850 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_POT RV?
+L ao_symbols:R_POT RV?
 U 1 1 5F206831
 P 1850 3950
 AR Path="/5F206831" Ref="RV?"  Part="1" 
@@ -529,6 +569,8 @@ F 0 "RV1" H 1781 3904 50  0000 R CNN
 F 1 "B100k" H 1781 3995 50  0000 R CNN
 F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered" H 1850 3950 50  0001 C CNN
 F 3 "~" H 1850 3950 50  0001 C CNN
+F 4 "A-1848" H 1850 3950 50  0001 C CNN "SKU"
+F 5 "Tayda" H 1850 3950 50  0001 C CNN "Vendor"
 	1    1850 3950
 	1    0    0    1   
 $EndComp
@@ -684,68 +726,80 @@ Wire Wire Line
 Wire Wire Line
 	8600 2150 9150 2150
 $Comp
-L Diode:1N4148 D4
+L ao_symbols:1N4148 D4
 U 1 1 600FC2DD
 P 3150 3650
 F 0 "D4" H 3150 3433 50  0000 C CNN
 F 1 "1N4148" H 3150 3524 50  0000 C CNN
 F 2 "ao_tht:D_DO-35_SOD27_P7.62mm_Horizontal" H 3150 3475 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3150 3650 50  0001 C CNN
+F 4 "A-157" H 3150 3650 50  0001 C CNN "SKU"
+F 5 "Tayda" H 3150 3650 50  0001 C CNN "Vendor"
 	1    3150 3650
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148 D5
+L ao_symbols:1N4148 D5
 U 1 1 60103E84
 P 4350 3650
 F 0 "D5" H 4350 3433 50  0000 C CNN
 F 1 "1N4148" H 4350 3524 50  0000 C CNN
 F 2 "ao_tht:D_DO-35_SOD27_P7.62mm_Horizontal" H 4350 3475 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4350 3650 50  0001 C CNN
+F 4 "A-157" H 4350 3650 50  0001 C CNN "SKU"
+F 5 "Tayda" H 4350 3650 50  0001 C CNN "Vendor"
 	1    4350 3650
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148 D6
+L ao_symbols:1N4148 D6
 U 1 1 601047E0
 P 5550 3650
 F 0 "D6" H 5550 3433 50  0000 C CNN
 F 1 "1N4148" H 5550 3524 50  0000 C CNN
 F 2 "ao_tht:D_DO-35_SOD27_P7.62mm_Horizontal" H 5550 3475 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5550 3650 50  0001 C CNN
+F 4 "A-157" H 5550 3650 50  0001 C CNN "SKU"
+F 5 "Tayda" H 5550 3650 50  0001 C CNN "Vendor"
 	1    5550 3650
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148 D7
+L ao_symbols:1N4148 D7
 U 1 1 60105B2F
 P 6750 3650
 F 0 "D7" H 6750 3433 50  0000 C CNN
 F 1 "1N4148" H 6750 3524 50  0000 C CNN
 F 2 "ao_tht:D_DO-35_SOD27_P7.62mm_Horizontal" H 6750 3475 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6750 3650 50  0001 C CNN
+F 4 "A-157" H 6750 3650 50  0001 C CNN "SKU"
+F 5 "Tayda" H 6750 3650 50  0001 C CNN "Vendor"
 	1    6750 3650
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148 D8
+L ao_symbols:1N4148 D8
 U 1 1 6010652F
 P 7950 3650
 F 0 "D8" H 7950 3433 50  0000 C CNN
 F 1 "1N4148" H 7950 3524 50  0000 C CNN
 F 2 "ao_tht:D_DO-35_SOD27_P7.62mm_Horizontal" H 7950 3475 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7950 3650 50  0001 C CNN
+F 4 "A-157" H 7950 3650 50  0001 C CNN "SKU"
+F 5 "Tayda" H 7950 3650 50  0001 C CNN "Vendor"
 	1    7950 3650
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148 D9
+L ao_symbols:1N4148 D9
 U 1 1 60106C13
 P 9150 3650
 F 0 "D9" H 9150 3433 50  0000 C CNN
 F 1 "1N4148" H 9150 3524 50  0000 C CNN
 F 2 "ao_tht:D_DO-35_SOD27_P7.62mm_Horizontal" H 9150 3475 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9150 3650 50  0001 C CNN
+F 4 "A-157" H 9150 3650 50  0001 C CNN "SKU"
+F 5 "Tayda" H 9150 3650 50  0001 C CNN "Vendor"
 	1    9150 3650
 	0    -1   -1   0   
 $EndComp
@@ -860,7 +914,7 @@ F 3 "" H 7925 5675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L ao_symbols:C C?
 U 1 1 5F5BEC97
 P 7925 5000
 AR Path="/5F1DEF77/5F25E2E1/5F5BEC97" Ref="C?"  Part="1" 
@@ -870,6 +924,8 @@ F 0 "C4" H 8040 5046 50  0000 L CNN
 F 1 "0.1uF" H 8040 4955 50  0000 L CNN
 F 2 "ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 7963 4850 50  0001 C CNN
 F 3 "~" H 7925 5000 50  0001 C CNN
+F 4 "A-553" H 7925 5000 50  0001 C CNN "SKU"
+F 5 "Tayda" H 7925 5000 50  0001 C CNN "Vendor"
 	1    7925 5000
 	1    0    0    -1  
 $EndComp
@@ -922,7 +978,7 @@ F 3 "" H 6475 5675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L ao_symbols:C C?
 U 1 1 5F5BECB3
 P 6475 5000
 AR Path="/5F1DEF77/5F25E2E1/5F5BECB3" Ref="C?"  Part="1" 
@@ -932,6 +988,8 @@ F 0 "C3" H 6590 5046 50  0000 L CNN
 F 1 "0.1uF" H 6590 4955 50  0000 L CNN
 F 2 "ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 6513 4850 50  0001 C CNN
 F 3 "~" H 6475 5000 50  0001 C CNN
+F 4 "A-553" H 6475 5000 50  0001 C CNN "SKU"
+F 5 "Tayda" H 6475 5000 50  0001 C CNN "Vendor"
 	1    6475 5000
 	1    0    0    -1  
 $EndComp
@@ -967,24 +1025,28 @@ F 3 "" H 5500 5200 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Diode:1N5817 D3
+L ao_symbols:1N5817 D3
 U 1 1 5F6D98F8
 P 2800 5400
 F 0 "D3" H 2800 5617 50  0000 C CNN
 F 1 "1N5817" H 2800 5526 50  0000 C CNN
 F 2 "ao_tht:D_DO-41_SOD81_P7.62mm_Horizontal" H 2800 5225 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 2800 5400 50  0001 C CNN
+F 4 "A-159" H 2800 5400 50  0001 C CNN "SKU"
+F 5 "Tayda" H 2800 5400 50  0001 C CNN "Vendor"
 	1    2800 5400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N5817 D2
+L ao_symbols:1N5817 D2
 U 1 1 5F6DAC4B
 P 2800 5000
 F 0 "D2" H 2800 4783 50  0000 C CNN
 F 1 "1N5817" H 2800 4874 50  0000 C CNN
 F 2 "ao_tht:D_DO-41_SOD81_P7.62mm_Horizontal" H 2800 4825 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 2800 5000 50  0001 C CNN
+F 4 "A-159" H 2800 5000 50  0001 C CNN "SKU"
+F 5 "Tayda" H 2800 5000 50  0001 C CNN "Vendor"
 	1    2800 5000
 	-1   0    0    1   
 $EndComp
@@ -1190,7 +1252,7 @@ L Connector_Generic:Conn_01x09 J7
 U 1 1 5F90EFB3
 P 2750 2550
 F 0 "J7" V 2875 2546 50  0000 C CNN
-F 1 "Conn_01x9" V 2966 2546 50  0000 C CNN
+F 1 "Conn_01x9" V 2950 2650 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 2750 2550 50  0001 C CNN
 F 3 "~" H 2750 2550 50  0001 C CNN
 	1    2750 2550
@@ -1214,7 +1276,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 6450 4700 6450
 $Comp
-L Device:R_POT RV?
+L ao_symbols:R_POT RV?
 U 1 1 5FA4E2BA
 P 3100 6400
 AR Path="/5FA4E2BA" Ref="RV?"  Part="1" 
@@ -1223,17 +1285,21 @@ F 0 "RV2" H 3031 6354 50  0000 R CNN
 F 1 "A100k" H 3031 6445 50  0000 R CNN
 F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered" H 3100 6400 50  0001 C CNN
 F 3 "~" H 3100 6400 50  0001 C CNN
+F 4 "A-1855" H 3100 6400 50  0001 C CNN "SKU"
+F 5 "Tayda" H 3100 6400 50  0001 C CNN "Vendor"
 	1    3100 6400
 	0    -1   1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J8
+L ao_symbols:2_pin_Molex_header J8
 U 1 1 5FA4ED74
 P 3100 6950
 F 0 "J8" V 2972 6762 50  0000 R CNN
-F 1 "Conn_01x02" V 3063 6762 50  0000 R CNN
+F 1 "2_pin_Molex_header" V 3063 6762 50  0000 R CNN
 F 2 "ao_tht:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 3100 6950 50  0001 C CNN
 F 3 "~" H 3100 6950 50  0001 C CNN
+F 4 "A-804" H 3100 6950 50  0001 C CNN "SKU"
+F 5 "Tayda" H 3100 6950 50  0001 C CNN "Vendor"
 	1    3100 6950
 	0    1    1    0   
 $EndComp
@@ -1250,13 +1316,15 @@ Wire Wire Line
 Wire Wire Line
 	1500 1200 1500 2450
 $Comp
-L Connector_Generic:Conn_01x03 J11
+L ao_symbols:3_pin_Molex_header J11
 U 1 1 5FAAB8EB
 P 4300 6950
 F 0 "J11" V 4172 6762 50  0000 R CNN
-F 1 "Conn_01x03" V 4263 6762 50  0000 R CNN
+F 1 "3_pin_Molex_header" V 4263 6762 50  0000 R CNN
 F 2 "ao_tht:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 4300 6950 50  0001 C CNN
 F 3 "~" H 4300 6950 50  0001 C CNN
+F 4 "A-805" H 4300 6950 50  0001 C CNN "SKU"
+F 5 "Tayda" H 4300 6950 50  0001 C CNN "Vendor"
 	1    4300 6950
 	0    -1   1    0   
 $EndComp
@@ -1312,13 +1380,15 @@ Level pot and slew switch connect to Barton PCB \nvia wires with Molex connector
 Text Notes 650  800  0    50   ~ 0
 In and out jacks connect to Barton PCB  \nvia wires with Molex connectors
 $Comp
-L Connector_Generic:Conn_01x02 J4
+L ao_symbols:2_pin_Molex_header J4
 U 1 1 5F904528
 P 1400 2650
 F 0 "J4" V 1272 2462 50  0000 R CNN
-F 1 "Conn_01x02" V 1363 2462 50  0000 R CNN
+F 1 "2_pin_Molex_header" V 1363 2462 50  0000 R CNN
 F 2 "ao_tht:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 1400 2650 50  0001 C CNN
 F 3 "~" H 1400 2650 50  0001 C CNN
+F 4 "A-804" H 1400 2650 50  0001 C CNN "SKU"
+F 5 "Tayda" H 1400 2650 50  0001 C CNN "Vendor"
 	1    1400 2650
 	0    -1   1    0   
 $EndComp

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/rsholmes/Google Drive/Hobbies/Music/Instruments/synths/Barton/Wave Shaper/CV Wave Shaper/Hardware/waveshaper/waveshaper.sch</source>
-    <date>Wed 14 Oct 2020 09:00:49 AM EDT</date>
-    <tool>Eeschema 5.1.6-c6e7f7d~87~ubuntu20.04.1</tool>
+    <source>/home/rsholmes/Documents/Hobbies/Music/Instruments/Synths/Barton/Wave Shaper/WaveShaper/Hardware/PCB-aux/waveshaper-aux/waveshaper.sch</source>
+    <date>Sun 29 Aug 2021 12:16:06 PM EDT</date>
+    <tool>Eeschema 5.1.10-88a1d61d58~90~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>CV Wave Shaper </title>
@@ -32,7 +32,7 @@
     </sheet>
   </design>
   <components>
-    <comp ref="U5">
+    <comp ref="U1">
       <value>4066</value>
       <footprint>ao_tht:DIP-14_W7.62mm_Socket_LongPads</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/cd4066b.pdf</datasheet>
@@ -40,7 +40,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F057496</tstamp>
     </comp>
-    <comp ref="U4">
+    <comp ref="U2">
       <value>4066</value>
       <footprint>ao_tht:DIP-14_W7.62mm_Socket_LongPads</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/cd4066b.pdf</datasheet>
@@ -48,102 +48,122 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F05C1A3</tstamp>
     </comp>
-    <comp ref="R14">
+    <comp ref="R7">
       <value>10k</value>
-      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F04F04C</tstamp>
     </comp>
-    <comp ref="R13">
+    <comp ref="R6">
       <value>10k</value>
-      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F07C8DE</tstamp>
     </comp>
-    <comp ref="R12">
+    <comp ref="R5">
       <value>10k</value>
-      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F07C33D</tstamp>
     </comp>
-    <comp ref="R11">
+    <comp ref="R4">
       <value>10k</value>
-      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F04EB26</tstamp>
     </comp>
-    <comp ref="R10">
+    <comp ref="R3">
       <value>10k</value>
-      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F04E1E9</tstamp>
     </comp>
-    <comp ref="R9">
+    <comp ref="R2">
       <value>10k</value>
-      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F04DE0C</tstamp>
     </comp>
-    <comp ref="R8">
+    <comp ref="R1">
       <value>10k</value>
-      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F04D4E6</tstamp>
     </comp>
-    <comp ref="J10">
+    <comp ref="J1">
       <value>2x7 IDC header</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical</footprint>
+      <footprint>Connector_IDC:IDC-Header_2x07_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="SKU">A-3349</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_02x07_Odd_Even" description="Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F98391F</tstamp>
     </comp>
-    <comp ref="C15">
+    <comp ref="C2">
       <value>10uF</value>
       <footprint>ao_tht:CP_Radial_D5.0mm_P2.00mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <fields>
+        <field name="SKU">A-4349</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="CP" description=""/>
       <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
       <tstamp>5F2680AB</tstamp>
     </comp>
-    <comp ref="C14">
+    <comp ref="C1">
       <value>10uF</value>
       <footprint>ao_tht:CP_Radial_D5.0mm_P2.00mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <fields>
+        <field name="SKU">A-4349</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="CP" description=""/>
       <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
       <tstamp>5F2680A5</tstamp>
     </comp>
-    <comp ref="J13">
+    <comp ref="J5">
       <value>EURO_PWR_2x5</value>
       <footprint>ao_tht:Power_Header</footprint>
-      <libsource lib="Synth_power" part="Synth_power_2x5" description=""/>
+      <fields>
+        <field name="SKU">A-2939</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="Synth_power_2x5" description="Pin header 2.54 mm 2x5"/>
       <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
       <tstamp>5F268093</tstamp>
     </comp>
-    <comp ref="J5">
+    <comp ref="J12">
       <value>AudioJack2_SwitchT</value>
       <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <fields>
+        <field name="SKU">A-1121</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
       <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
       <tstamp>5FB45279</tstamp>
     </comp>
-    <comp ref="J7">
+    <comp ref="J15">
       <value>AudioJack2_SwitchT</value>
       <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
       <datasheet>~</datasheet>
@@ -151,67 +171,99 @@
       <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
       <tstamp>5FB4A784</tstamp>
     </comp>
+    <comp ref="J14">
+      <value>AudioJack2_SwitchT</value>
+      <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SKU">A-1121</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
+      <tstamp>5FB4D39B</tstamp>
+    </comp>
+    <comp ref="J16">
+      <value>AudioJack2_SwitchT</value>
+      <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SKU">A-1121</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
+      <tstamp>5FB504B8</tstamp>
+    </comp>
+    <comp ref="J17">
+      <value>AudioJack2_SwitchT</value>
+      <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SKU">A-1121</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
+      <tstamp>5FB53AD4</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148</value>
+      <footprint>ao_tht:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="SKU">A-157</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="1N4148" description="Standard switching diode, DO-35"/>
+      <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
+      <tstamp>5FB53ADA</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>AudioJack2_SwitchT</value>
+      <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SKU">A-1121</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
+      <tstamp>5FB56B05</tstamp>
+    </comp>
     <comp ref="J6">
       <value>AudioJack2_SwitchT</value>
       <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
-      <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
-      <tstamp>5FB4D39B</tstamp>
-    </comp>
-    <comp ref="J8">
-      <value>AudioJack2_SwitchT</value>
-      <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
-      <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
-      <tstamp>5FB504B8</tstamp>
-    </comp>
-    <comp ref="J9">
-      <value>AudioJack2_SwitchT</value>
-      <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
-      <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
-      <tstamp>5FB53AD4</tstamp>
-    </comp>
-    <comp ref="D4">
-      <value>1N4148</value>
-      <footprint>ao_tht:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
-      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
-      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
-      <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
-      <tstamp>5FB53ADA</tstamp>
-    </comp>
-    <comp ref="J4">
-      <value>AudioJack2_SwitchT</value>
-      <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
-      <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
-      <tstamp>5FB56B05</tstamp>
-    </comp>
-    <comp ref="J3">
-      <value>AudioJack2_SwitchT</value>
-      <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <fields>
+        <field name="SKU">A-1121</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
       <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
       <tstamp>5FB63BE8</tstamp>
-    </comp>
-    <comp ref="J1">
-      <value>AudioJack2_SwitchT</value>
-      <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
-      <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
-      <tstamp>5FB0D36D</tstamp>
     </comp>
     <comp ref="J2">
       <value>AudioJack2_SwitchT</value>
       <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <fields>
+        <field name="SKU">A-1121</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
+      <tstamp>5FB0D36D</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>AudioJack2_SwitchT</value>
+      <footprint>ao_tht:Jack_6.35mm_PJ_629HAN</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SKU">A-1121</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="AudioJack2_SwitchT" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
       <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
       <tstamp>5FB0DC9B</tstamp>
     </comp>
@@ -219,55 +271,83 @@
       <value>SW_SPDT</value>
       <footprint>ao_tht:SPDT-toggle-switch-1M-series</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <fields>
+        <field name="SKU">A-3187</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="SW_SPDT" description="Switch, single pole double throw"/>
       <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
       <tstamp>5F59635B</tstamp>
+    </comp>
+    <comp ref="RV8">
+      <value>B100k</value>
+      <footprint>ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SKU">A-1848</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
+      <tstamp>5FAEB01F</tstamp>
     </comp>
     <comp ref="RV7">
       <value>B100k</value>
       <footprint>ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <fields>
+        <field name="SKU">A-1848</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R_POT" description="Potentiometer"/>
       <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
-      <tstamp>5FAEB01F</tstamp>
+      <tstamp>5FAE8BFF</tstamp>
     </comp>
     <comp ref="RV6">
       <value>B100k</value>
       <footprint>ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <fields>
+        <field name="SKU">A-1848</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R_POT" description="Potentiometer"/>
       <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
-      <tstamp>5FAE8BFF</tstamp>
+      <tstamp>5FAE3F39</tstamp>
     </comp>
     <comp ref="RV5">
       <value>B100k</value>
       <footprint>ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <fields>
+        <field name="SKU">A-1848</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R_POT" description="Potentiometer"/>
       <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
-      <tstamp>5FAE3F39</tstamp>
+      <tstamp>5FAE1BD5</tstamp>
     </comp>
     <comp ref="RV4">
       <value>B100k</value>
       <footprint>ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <fields>
+        <field name="SKU">A-1848</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R_POT" description="Potentiometer"/>
       <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
-      <tstamp>5FAE1BD5</tstamp>
+      <tstamp>5FAE0325</tstamp>
     </comp>
     <comp ref="RV3">
       <value>B100k</value>
       <footprint>ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
-      <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
-      <tstamp>5FAE0325</tstamp>
-    </comp>
-    <comp ref="RV2">
-      <value>B100k</value>
-      <footprint>ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <fields>
+        <field name="SKU">A-1848</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R_POT" description="Potentiometer"/>
       <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
       <tstamp>5FADE261</tstamp>
     </comp>
@@ -275,11 +355,15 @@
       <value>B100k</value>
       <footprint>ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <fields>
+        <field name="SKU">A-1848</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R_POT" description="Potentiometer"/>
       <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
       <tstamp>5F206831</tstamp>
     </comp>
-    <comp ref="J30">
+    <comp ref="J13">
       <value>2x5 pin socket</value>
       <footprint>Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
@@ -287,83 +371,115 @@
       <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
       <tstamp>6006C9AA</tstamp>
     </comp>
+    <comp ref="D4">
+      <value>1N4148</value>
+      <footprint>ao_tht:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="SKU">A-157</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="1N4148" description="Standard switching diode, DO-35"/>
+      <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
+      <tstamp>600FC2DD</tstamp>
+    </comp>
     <comp ref="D5">
       <value>1N4148</value>
       <footprint>ao_tht:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
-      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <fields>
+        <field name="SKU">A-157</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="1N4148" description="Standard switching diode, DO-35"/>
       <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
-      <tstamp>600FC2DD</tstamp>
+      <tstamp>60103E84</tstamp>
     </comp>
     <comp ref="D6">
       <value>1N4148</value>
       <footprint>ao_tht:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
-      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <fields>
+        <field name="SKU">A-157</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="1N4148" description="Standard switching diode, DO-35"/>
       <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
-      <tstamp>60103E84</tstamp>
+      <tstamp>601047E0</tstamp>
     </comp>
     <comp ref="D7">
       <value>1N4148</value>
       <footprint>ao_tht:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
-      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <fields>
+        <field name="SKU">A-157</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="1N4148" description="Standard switching diode, DO-35"/>
       <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
-      <tstamp>601047E0</tstamp>
+      <tstamp>60105B2F</tstamp>
     </comp>
     <comp ref="D8">
       <value>1N4148</value>
       <footprint>ao_tht:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
-      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <fields>
+        <field name="SKU">A-157</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="1N4148" description="Standard switching diode, DO-35"/>
       <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
-      <tstamp>60105B2F</tstamp>
+      <tstamp>6010652F</tstamp>
     </comp>
     <comp ref="D9">
       <value>1N4148</value>
       <footprint>ao_tht:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
-      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
-      <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
-      <tstamp>6010652F</tstamp>
-    </comp>
-    <comp ref="D10">
-      <value>1N4148</value>
-      <footprint>ao_tht:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
-      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
-      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <fields>
+        <field name="SKU">A-157</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="1N4148" description="Standard switching diode, DO-35"/>
       <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
       <tstamp>60106C13</tstamp>
     </comp>
-    <comp ref="R25">
+    <comp ref="R8">
       <value>100k</value>
-      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
       <tstamp>5FAEC993</tstamp>
     </comp>
-    <comp ref="R26">
+    <comp ref="R9">
       <value>470k</value>
-      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
       <tstamp>5FAED09D</tstamp>
     </comp>
-    <comp ref="C17">
+    <comp ref="C4">
       <value>0.1uF</value>
       <footprint>ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="SKU">A-553</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="C" description=""/>
       <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
       <tstamp>5F5BEC97</tstamp>
     </comp>
-    <comp ref="C16">
+    <comp ref="C3">
       <value>0.1uF</value>
       <footprint>ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="SKU">A-553</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="C" description=""/>
       <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
       <tstamp>5F5BECB3</tstamp>
     </comp>
@@ -371,7 +487,11 @@
       <value>1N5817</value>
       <footprint>ao_tht:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
       <datasheet>http://www.vishay.com/docs/88525/1n5817.pdf</datasheet>
-      <libsource lib="Diode" part="1N5817" description="20V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <fields>
+        <field name="SKU">A-159</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="1N5817" description="Schottky Barrier Rectifier Diode, DO-41"/>
       <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
       <tstamp>5F6D98F8</tstamp>
     </comp>
@@ -379,11 +499,15 @@
       <value>1N5817</value>
       <footprint>ao_tht:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
       <datasheet>http://www.vishay.com/docs/88525/1n5817.pdf</datasheet>
-      <libsource lib="Diode" part="1N5817" description="20V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <fields>
+        <field name="SKU">A-159</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="1N5817" description="Schottky Barrier Rectifier Diode, DO-41"/>
       <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
       <tstamp>5F6DAC4B</tstamp>
     </comp>
-    <comp ref="J14">
+    <comp ref="J7">
       <value>Conn_01x9</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
@@ -391,7 +515,7 @@
       <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
       <tstamp>5F90EFB3</tstamp>
     </comp>
-    <comp ref="J15">
+    <comp ref="J9">
       <value>Conn_01x9</value>
       <footprint>Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
@@ -399,37 +523,63 @@
       <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
       <tstamp>5F97711E</tstamp>
     </comp>
-    <comp ref="RV8">
+    <comp ref="RV2">
       <value>A100k</value>
       <footprint>ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <fields>
+        <field name="SKU">A-1855</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="R_POT" description="Potentiometer"/>
       <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
       <tstamp>5FA4E2BA</tstamp>
     </comp>
-    <comp ref="J20">
-      <value>Conn_01x02</value>
+    <comp ref="J8">
+      <value>2_pin_Molex_header</value>
       <footprint>ao_tht:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <fields>
+        <field name="SKU">A-804</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="2_pin_Molex_header" description="KK254 Molex header"/>
       <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
       <tstamp>5FA4ED74</tstamp>
     </comp>
     <comp ref="J11">
-      <value>Conn_01x03</value>
+      <value>3_pin_Molex_header</value>
       <footprint>ao_tht:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <fields>
+        <field name="SKU">A-805</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="3_pin_Molex_header" description="KK254 Molex header"/>
       <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
       <tstamp>5FAAB8EB</tstamp>
     </comp>
-    <comp ref="J12">
-      <value>Conn_01x02</value>
+    <comp ref="J4">
+      <value>2_pin_Molex_header</value>
       <footprint>ao_tht:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <fields>
+        <field name="SKU">A-804</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <libsource lib="ao_symbols" part="2_pin_Molex_header" description="KK254 Molex header"/>
       <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
       <tstamp>5F904528</tstamp>
+    </comp>
+    <comp ref="GRAF1">
+      <value>CC0 logo</value>
+      <footprint>ao_tht:CC0_logo</footprint>
+      <fields>
+        <field name="Config">DNF</field>
+      </fields>
+      <libsource lib="ao_symbols" part="Graphic" description=""/>
+      <sheetpath names="/Panel and power/" tstamps="/5F1DEF77/"/>
+      <tstamp>611025C9</tstamp>
     </comp>
   </components>
   <libparts>
@@ -477,37 +627,6 @@
         <pin num="S" name="~" type="passive"/>
         <pin num="T" name="~" type="passive"/>
         <pin num="TN" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Connector_Generic" part="Conn_01x02">
-      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Connector*:*_1x??_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Conn_01x02</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-        <pin num="2" name="Pin_2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Connector_Generic" part="Conn_01x03">
-      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Connector*:*_1x??_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Conn_01x03</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-        <pin num="2" name="Pin_2" type="passive"/>
-        <pin num="3" name="Pin_3" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Connector_Generic" part="Conn_01x09">
@@ -582,36 +701,6 @@
         <pin num="14" name="Pin_14" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="C">
-      <description>Unpolarized capacitor</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>C_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Device" part="CP">
-      <description>Polarized capacitor</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>CP_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">CP</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Device" part="R">
       <description>Resistor</description>
       <docs>~</docs>
@@ -627,7 +716,135 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="R_POT">
+    <libpart lib="ao_symbols" part="1N4148">
+      <aliases>
+        <alias>1N914</alias>
+      </aliases>
+      <description>Standard switching diode, DO-35</description>
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148</field>
+        <field name="Footprint">ao_tht:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+        <field name="Vendor">Tayda</field>
+        <field name="SKU">A-157</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ao_symbols" part="1N5817">
+      <description>Schottky Barrier Rectifier Diode, DO-41</description>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N5817</field>
+        <field name="Footprint">ao_tht:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Vendor">Tayda</field>
+        <field name="SKU">A-159</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ao_symbols" part="2_pin_Molex_header">
+      <description>KK254 Molex header</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">2_pin_Molex_header</field>
+        <field name="Footprint">ao_tht:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</field>
+        <field name="Vendor">Tayda</field>
+        <field name="SKU">A-804</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ao_symbols" part="3_pin_Molex_header">
+      <description>KK254 Molex header</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">3_pin_Molex_header</field>
+        <field name="Footprint">ao_tht:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical</field>
+        <field name="Vendor">Tayda</field>
+        <field name="SKU">A-805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ao_symbols" part="AudioJack2_SwitchT">
+      <description>Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AudioJack2_SwitchT</field>
+        <field name="Footprint">ao_tht:Jack_6.35mm_PJ_629HAN</field>
+        <field name="Vendor">Tayda</field>
+        <field name="SKU">A-1121</field>
+      </fields>
+      <pins>
+        <pin num="S" name="~" type="passive"/>
+        <pin num="T" name="~" type="passive"/>
+        <pin num="TN" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ao_symbols" part="C">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint">ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ao_symbols" part="CP">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+        <field name="Footprint">ao_tht:CP_Radial_D6.3mm_P2.50mm</field>
+        <field name="Vendor">Tayda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ao_symbols" part="Graphic">
+      <fields>
+        <field name="Reference">GRAF</field>
+        <field name="Value">Graphic</field>
+        <field name="Config">DNF</field>
+      </fields>
+    </libpart>
+    <libpart lib="ao_symbols" part="R_POT">
       <description>Potentiometer</description>
       <docs>~</docs>
       <footprints>
@@ -636,6 +853,7 @@
       <fields>
         <field name="Reference">RV</field>
         <field name="Value">R_POT</field>
+        <field name="Vendor">Tayda</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
@@ -643,71 +861,13 @@
         <pin num="3" name="3" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Diode" part="1N4148">
-      <aliases>
-        <alias>1N4448</alias>
-        <alias>1N4149</alias>
-        <alias>1N4151</alias>
-        <alias>1N914</alias>
-        <alias>BA243</alias>
-        <alias>BA244</alias>
-        <alias>BA282</alias>
-        <alias>BA283</alias>
-        <alias>BAV17</alias>
-        <alias>BAV18</alias>
-        <alias>BAV19</alias>
-        <alias>BAV20</alias>
-        <alias>BAV21</alias>
-        <alias>BAW75</alias>
-        <alias>BAW76</alias>
-        <alias>BAY93</alias>
-      </aliases>
-      <description>100V 0.15A standard switching diode, DO-35</description>
-      <docs>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</docs>
-      <footprints>
-        <fp>D*DO?35*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">1N4148</field>
-        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Diode" part="SB120">
-      <aliases>
-        <alias>SB130</alias>
-        <alias>SB140</alias>
-        <alias>SB150</alias>
-        <alias>SB160</alias>
-        <alias>1N5817</alias>
-        <alias>1N5818</alias>
-        <alias>1N5819</alias>
-      </aliases>
-      <description>20V 1A Schottky Barrier Rectifier Diode, DO-41</description>
-      <docs>http://www.diodes.com/_files/datasheets/ds23022.pdf</docs>
-      <footprints>
-        <fp>D*DO?41*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">SB120</field>
-        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Switch" part="SW_SPDT">
+    <libpart lib="ao_symbols" part="SW_SPDT">
       <description>Switch, single pole double throw</description>
       <docs>~</docs>
       <fields>
         <field name="Reference">SW</field>
         <field name="Value">SW_SPDT</field>
+        <field name="Vendor">Tayda</field>
       </fields>
       <pins>
         <pin num="1" name="A" type="passive"/>
@@ -715,21 +875,25 @@
         <pin num="3" name="C" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Synth_power" part="Synth_power_2x5">
+    <libpart lib="ao_symbols" part="Synth_power_2x5">
+      <description>Pin header 2.54 mm 2x5</description>
       <fields>
         <field name="Reference">J</field>
         <field name="Value">Synth_power_2x5</field>
+        <field name="Footprint">ao_tht:Power_Header</field>
+        <field name="Vendor">Tayda</field>
+        <field name="SKU">A-2939</field>
       </fields>
       <pins>
-        <pin num="1" name="-12V" type="passive"/>
+        <pin num="1" name="-12V" type="power_out"/>
         <pin num="2" name="-12V" type="passive"/>
-        <pin num="3" name="GND" type="passive"/>
+        <pin num="3" name="GND" type="power_out"/>
         <pin num="4" name="GND" type="passive"/>
         <pin num="5" name="GND" type="passive"/>
         <pin num="6" name="GND" type="passive"/>
         <pin num="7" name="GND" type="passive"/>
         <pin num="8" name="GND" type="passive"/>
-        <pin num="9" name="+12V" type="passive"/>
+        <pin num="9" name="+12V" type="power_out"/>
         <pin num="10" name="+12V" type="passive"/>
       </pins>
     </libpart>
@@ -747,317 +911,313 @@
     <library logical="Device">
       <uri>/usr/share/kicad/library/Device.lib</uri>
     </library>
-    <library logical="Diode">
-      <uri>/usr/share/kicad/library/Diode.lib</uri>
-    </library>
-    <library logical="Switch">
-      <uri>/usr/share/kicad/library/Switch.lib</uri>
-    </library>
-    <library logical="Synth_power">
-      <uri>/home/rsholmes/Google Drive/Hobbies/Music/Instruments/synths/Barton/Wave Shaper/CV Wave Shaper/Hardware/waveshaper/Synth_power.lib</uri>
+    <library logical="ao_symbols">
+      <uri>/home/rsholmes/Documents/Hobbies/Electronics/KiCad/Libraries/aoKicad/ao_symbols.lib</uri>
     </library>
   </libraries>
   <nets>
     <net code="1" name="MIXIN_0">
-      <node ref="U5" pin="3"/>
-      <node ref="J10" pin="8"/>
-      <node ref="R13" pin="1"/>
+      <node ref="J1" pin="8"/>
+      <node ref="R6" pin="1"/>
+      <node ref="U1" pin="3"/>
     </net>
     <net code="2" name="/RIPOUT_-1">
-      <node ref="U4" pin="5"/>
-      <node ref="J10" pin="11"/>
+      <node ref="J1" pin="11"/>
+      <node ref="U2" pin="5"/>
     </net>
     <net code="3" name="MIXIN_+2">
-      <node ref="U5" pin="10"/>
-      <node ref="J10" pin="4"/>
-      <node ref="R12" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="J1" pin="4"/>
+      <node ref="U1" pin="10"/>
     </net>
     <net code="4" name="/RIPOUT_+2">
-      <node ref="J10" pin="3"/>
-      <node ref="U5" pin="12"/>
+      <node ref="J1" pin="3"/>
+      <node ref="U1" pin="12"/>
     </net>
     <net code="5" name="/RIPOUT_0">
-      <node ref="U5" pin="5"/>
-      <node ref="J10" pin="7"/>
+      <node ref="J1" pin="7"/>
+      <node ref="U1" pin="5"/>
     </net>
     <net code="6" name="/RIPOUT_-3">
-      <node ref="J10" pin="9"/>
-      <node ref="U4" pin="12"/>
+      <node ref="U2" pin="12"/>
+      <node ref="J1" pin="9"/>
     </net>
     <net code="7" name="CV_+1">
-      <node ref="U5" pin="1"/>
-      <node ref="RV3" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="RV4" pin="2"/>
     </net>
     <net code="8" name="CV_0">
-      <node ref="RV4" pin="2"/>
-      <node ref="U5" pin="4"/>
+      <node ref="RV5" pin="2"/>
+      <node ref="U1" pin="4"/>
     </net>
     <net code="9" name="CV_+2">
-      <node ref="U5" pin="11"/>
-      <node ref="RV2" pin="2"/>
+      <node ref="RV3" pin="2"/>
+      <node ref="U1" pin="11"/>
     </net>
     <net code="10" name="MIXIN_-3">
-      <node ref="R11" pin="1"/>
-      <node ref="U4" pin="10"/>
-      <node ref="J10" pin="10"/>
+      <node ref="J1" pin="10"/>
+      <node ref="R4" pin="1"/>
+      <node ref="U2" pin="10"/>
     </net>
     <net code="11" name="CV_-3">
-      <node ref="RV7" pin="2"/>
-      <node ref="U4" pin="11"/>
+      <node ref="RV8" pin="2"/>
+      <node ref="U2" pin="11"/>
     </net>
     <net code="12" name="CV_+3">
-      <node ref="U5" pin="8"/>
+      <node ref="U1" pin="8"/>
       <node ref="RV1" pin="2"/>
     </net>
     <net code="13" name="MIXIN_+3">
-      <node ref="R8" pin="1"/>
-      <node ref="J10" pin="2"/>
-      <node ref="U5" pin="9"/>
+      <node ref="R1" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="9"/>
     </net>
     <net code="14" name="/RIPOUT_+1">
-      <node ref="J10" pin="5"/>
-      <node ref="U5" pin="13"/>
+      <node ref="U1" pin="13"/>
+      <node ref="J1" pin="5"/>
     </net>
     <net code="15" name="/RIPOUT_+3">
-      <node ref="U5" pin="6"/>
-      <node ref="J10" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U1" pin="6"/>
     </net>
     <net code="16" name="MIXIN_-2">
-      <node ref="J10" pin="14"/>
-      <node ref="R14" pin="1"/>
-      <node ref="U4" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="R7" pin="1"/>
+      <node ref="J1" pin="14"/>
     </net>
     <net code="17" name="GND">
+      <node ref="J5" pin="8"/>
+      <node ref="R9" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="J5" pin="7"/>
+      <node ref="J5" pin="6"/>
+      <node ref="J5" pin="5"/>
+      <node ref="J5" pin="4"/>
+      <node ref="J5" pin="3"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J9" pin="1"/>
+      <node ref="RV7" pin="1"/>
+      <node ref="RV6" pin="1"/>
+      <node ref="U2" pin="7"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U1" pin="7"/>
+      <node ref="RV8" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="J13" pin="8"/>
       <node ref="J13" pin="7"/>
       <node ref="J13" pin="6"/>
-      <node ref="J13" pin="8"/>
-      <node ref="J13" pin="4"/>
       <node ref="J13" pin="5"/>
-      <node ref="U5" pin="7"/>
-      <node ref="C17" pin="2"/>
-      <node ref="C15" pin="1"/>
-      <node ref="C14" pin="2"/>
-      <node ref="J13" pin="3"/>
-      <node ref="J9" pin="S"/>
-      <node ref="RV6" pin="1"/>
+      <node ref="J13" pin="4"/>
+      <node ref="U2" pin="9"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U2" pin="6"/>
       <node ref="RV5" pin="1"/>
-      <node ref="RV7" pin="1"/>
-      <node ref="J5" pin="S"/>
-      <node ref="J7" pin="S"/>
-      <node ref="J6" pin="S"/>
-      <node ref="J8" pin="S"/>
-      <node ref="J4" pin="S"/>
-      <node ref="J3" pin="S"/>
-      <node ref="J1" pin="S"/>
-      <node ref="J14" pin="1"/>
-      <node ref="J15" pin="1"/>
-      <node ref="U4" pin="7"/>
-      <node ref="C16" pin="2"/>
-      <node ref="J2" pin="S"/>
-      <node ref="R10" pin="2"/>
-      <node ref="R9" pin="2"/>
-      <node ref="R8" pin="2"/>
-      <node ref="R14" pin="2"/>
-      <node ref="J30" pin="7"/>
-      <node ref="J30" pin="8"/>
-      <node ref="J30" pin="6"/>
-      <node ref="R13" pin="2"/>
-      <node ref="U4" pin="9"/>
-      <node ref="J30" pin="3"/>
-      <node ref="U4" pin="8"/>
-      <node ref="J30" pin="4"/>
-      <node ref="J30" pin="5"/>
-      <node ref="U4" pin="6"/>
-      <node ref="RV3" pin="1"/>
-      <node ref="RV2" pin="1"/>
-      <node ref="RV1" pin="1"/>
-      <node ref="R12" pin="2"/>
-      <node ref="R26" pin="1"/>
-      <node ref="R11" pin="2"/>
       <node ref="RV4" pin="1"/>
+      <node ref="J13" pin="3"/>
+      <node ref="R4" pin="2"/>
+      <node ref="RV1" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="RV3" pin="1"/>
     </net>
     <net code="18" name="MIXIN_+1">
-      <node ref="J10" pin="6"/>
-      <node ref="U5" pin="2"/>
-      <node ref="R9" pin="1"/>
+      <node ref="J1" pin="6"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R2" pin="1"/>
     </net>
     <net code="19" name="MIXIN_-1">
-      <node ref="U4" pin="3"/>
-      <node ref="J10" pin="12"/>
-      <node ref="R10" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="R3" pin="1"/>
+      <node ref="J1" pin="12"/>
     </net>
     <net code="20" name="CV_-1">
-      <node ref="RV5" pin="2"/>
-      <node ref="U4" pin="4"/>
+      <node ref="U2" pin="4"/>
+      <node ref="RV6" pin="2"/>
     </net>
     <net code="21" name="CV_-2">
-      <node ref="RV6" pin="2"/>
-      <node ref="U4" pin="1"/>
+      <node ref="RV7" pin="2"/>
+      <node ref="U2" pin="1"/>
     </net>
     <net code="22" name="/RIPOUT_-2">
-      <node ref="U4" pin="13"/>
-      <node ref="J10" pin="13"/>
+      <node ref="J1" pin="13"/>
+      <node ref="U2" pin="13"/>
     </net>
     <net code="23" name="+12V">
-      <node ref="C14" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="U2" pin="14"/>
       <node ref="D2" pin="1"/>
-      <node ref="U4" pin="14"/>
-      <node ref="C16" pin="1"/>
-      <node ref="U5" pin="14"/>
-      <node ref="J30" pin="9"/>
-      <node ref="J30" pin="10"/>
-      <node ref="R25" pin="2"/>
-      <node ref="C17" pin="1"/>
+      <node ref="J13" pin="9"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U1" pin="14"/>
+      <node ref="C4" pin="1"/>
+      <node ref="J13" pin="10"/>
     </net>
-    <net code="24" name="+10V">
-      <node ref="R25" pin="1"/>
-      <node ref="R26" pin="2"/>
-      <node ref="J15" pin="2"/>
+    <net code="24" name="/Panel and power/IN">
+      <node ref="J4" pin="2"/>
+      <node ref="J2" pin="T"/>
     </net>
-    <net code="25" name="/Panel and power/IN">
-      <node ref="J12" pin="2"/>
-      <node ref="J1" pin="T"/>
-    </net>
-    <net code="26" name="-12V">
-      <node ref="D3" pin="2"/>
-      <node ref="C15" pin="2"/>
-      <node ref="J30" pin="2"/>
-      <node ref="J30" pin="1"/>
-    </net>
-    <net code="27" name="/Panel and power/LEVEL_CCW">
-      <node ref="RV8" pin="1"/>
-      <node ref="J20" pin="2"/>
-    </net>
-    <net code="28" name="/Panel and power/SL_HIGH">
-      <node ref="SW1" pin="3"/>
-      <node ref="J11" pin="3"/>
-    </net>
-    <net code="29" name="/Panel and power/LEVEL_WIPER">
-      <node ref="RV8" pin="2"/>
-      <node ref="J20" pin="1"/>
-      <node ref="RV8" pin="3"/>
-    </net>
-    <net code="30" name="/Panel and power/SL_MED">
+    <net code="25" name="/Panel and power/SL_MED">
       <node ref="J11" pin="1"/>
       <node ref="SW1" pin="1"/>
     </net>
-    <net code="31" name="/Panel and power/SLEW">
-      <node ref="SW1" pin="2"/>
+    <net code="26" name="/Panel and power/SLEW">
       <node ref="J11" pin="2"/>
+      <node ref="SW1" pin="2"/>
     </net>
-    <net code="32" name="/Panel and power/OUT">
-      <node ref="J2" pin="T"/>
-      <node ref="J12" pin="1"/>
+    <net code="27" name="/Panel and power/LEVEL_CCW">
+      <node ref="RV2" pin="1"/>
+      <node ref="J8" pin="2"/>
     </net>
-    <net code="33" name="Net-(D6-Pad2)">
+    <net code="28" name="/Panel and power/LEVEL_WIPER">
+      <node ref="RV2" pin="2"/>
+      <node ref="RV2" pin="3"/>
+      <node ref="J8" pin="1"/>
+    </net>
+    <net code="29" name="-12V">
+      <node ref="J13" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="J13" pin="1"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="30" name="/Panel and power/OUT">
+      <node ref="J3" pin="T"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="31" name="/Panel and power/SL_HIGH">
+      <node ref="J11" pin="3"/>
+      <node ref="SW1" pin="3"/>
+    </net>
+    <net code="32" name="Net-(D6-Pad2)">
       <node ref="D6" pin="2"/>
-      <node ref="J15" pin="5"/>
+      <node ref="J9" pin="6"/>
     </net>
-    <net code="34" name="Net-(D5-Pad2)">
-      <node ref="D5" pin="2"/>
-      <node ref="J15" pin="4"/>
-    </net>
-    <net code="35" name="Net-(D4-Pad2)">
-      <node ref="D4" pin="2"/>
-      <node ref="J15" pin="3"/>
-    </net>
-    <net code="36" name="Net-(D10-Pad2)">
-      <node ref="D10" pin="2"/>
-      <node ref="J15" pin="9"/>
-    </net>
-    <net code="37" name="Net-(D9-Pad2)">
+    <net code="33" name="Net-(D9-Pad2)">
+      <node ref="J9" pin="9"/>
       <node ref="D9" pin="2"/>
-      <node ref="J15" pin="8"/>
     </net>
-    <net code="38" name="Net-(D8-Pad2)">
+    <net code="34" name="Net-(D8-Pad2)">
       <node ref="D8" pin="2"/>
-      <node ref="J15" pin="7"/>
+      <node ref="J9" pin="8"/>
     </net>
-    <net code="39" name="Net-(D7-Pad2)">
-      <node ref="J15" pin="6"/>
+    <net code="35" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2"/>
+      <node ref="J9" pin="5"/>
+    </net>
+    <net code="36" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="J9" pin="4"/>
+    </net>
+    <net code="37" name="Net-(D1-Pad2)">
+      <node ref="J9" pin="3"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="38" name="Net-(D7-Pad2)">
+      <node ref="J9" pin="7"/>
       <node ref="D7" pin="2"/>
     </net>
-    <net code="40" name="/Panel and power/CVIN_-2">
-      <node ref="J14" pin="8"/>
-      <node ref="J8" pin="T"/>
+    <net code="39" name="+10V">
+      <node ref="R8" pin="1"/>
+      <node ref="J9" pin="2"/>
+      <node ref="R9" pin="2"/>
     </net>
-    <net code="41" name="/Panel and power/CVIN_+3">
-      <node ref="J3" pin="T"/>
-      <node ref="J14" pin="3"/>
-    </net>
-    <net code="42" name="/Panel and power/CVIN_+2">
-      <node ref="J4" pin="T"/>
-      <node ref="J14" pin="4"/>
-    </net>
-    <net code="43" name="Net-(D4-Pad1)">
-      <node ref="RV1" pin="3"/>
-      <node ref="D4" pin="1"/>
-    </net>
-    <net code="44" name="/Panel and power/CVIN_-3">
-      <node ref="J9" pin="T"/>
-      <node ref="J14" pin="9"/>
-    </net>
-    <net code="45" name="/Panel and power/CVIN_0">
-      <node ref="J6" pin="T"/>
-      <node ref="J14" pin="6"/>
-    </net>
-    <net code="46" name="/Panel and power/CVIN_-1">
-      <node ref="J7" pin="T"/>
-      <node ref="J14" pin="7"/>
-    </net>
-    <net code="47" name="Net-(J14-Pad2)">
-      <node ref="J3" pin="TN"/>
-      <node ref="J4" pin="TN"/>
-      <node ref="J14" pin="2"/>
-      <node ref="J9" pin="TN"/>
-      <node ref="J8" pin="TN"/>
-      <node ref="J6" pin="TN"/>
-      <node ref="J7" pin="TN"/>
-      <node ref="J5" pin="TN"/>
-    </net>
-    <net code="48" name="/Panel and power/CVIN_+1">
-      <node ref="J14" pin="5"/>
-      <node ref="J5" pin="T"/>
-    </net>
-    <net code="49" name="Net-(D9-Pad1)">
-      <node ref="RV6" pin="3"/>
-      <node ref="D9" pin="1"/>
-    </net>
-    <net code="50" name="Net-(D10-Pad1)">
-      <node ref="RV7" pin="3"/>
-      <node ref="D10" pin="1"/>
-    </net>
-    <net code="51" name="Net-(J1-PadTN)">
-      <node ref="J1" pin="TN"/>
-    </net>
-    <net code="52" name="Net-(J2-PadTN)">
+    <net code="40" name="Net-(J2-PadTN)">
       <node ref="J2" pin="TN"/>
     </net>
-    <net code="53" name="Net-(D2-Pad2)">
-      <node ref="J13" pin="9"/>
-      <node ref="D2" pin="2"/>
-      <node ref="J13" pin="10"/>
+    <net code="41" name="/Panel and power/CVIN_+3">
+      <node ref="J7" pin="3"/>
+      <node ref="J6" pin="T"/>
     </net>
-    <net code="54" name="Net-(D3-Pad1)">
-      <node ref="D3" pin="1"/>
-      <node ref="J13" pin="2"/>
-      <node ref="J13" pin="1"/>
+    <net code="42" name="/Panel and power/CVIN_+2">
+      <node ref="J7" pin="4"/>
+      <node ref="J10" pin="T"/>
     </net>
-    <net code="55" name="Net-(D8-Pad1)">
-      <node ref="D8" pin="1"/>
-      <node ref="RV5" pin="3"/>
+    <net code="43" name="Net-(D1-Pad1)">
+      <node ref="RV1" pin="3"/>
+      <node ref="D1" pin="1"/>
     </net>
-    <net code="56" name="Net-(D7-Pad1)">
+    <net code="44" name="/Panel and power/CVIN_-3">
+      <node ref="J7" pin="9"/>
+      <node ref="J17" pin="T"/>
+    </net>
+    <net code="45" name="/Panel and power/CVIN_-2">
+      <node ref="J7" pin="8"/>
+      <node ref="J16" pin="T"/>
+    </net>
+    <net code="46" name="/Panel and power/CVIN_0">
+      <node ref="J14" pin="T"/>
+      <node ref="J7" pin="6"/>
+    </net>
+    <net code="47" name="/Panel and power/CVIN_-1">
+      <node ref="J7" pin="7"/>
+      <node ref="J15" pin="T"/>
+    </net>
+    <net code="48" name="Net-(J10-PadTN)">
+      <node ref="J10" pin="TN"/>
+      <node ref="J6" pin="TN"/>
+      <node ref="J7" pin="2"/>
+      <node ref="J12" pin="TN"/>
+      <node ref="J15" pin="TN"/>
+      <node ref="J14" pin="TN"/>
+      <node ref="J16" pin="TN"/>
+      <node ref="J17" pin="TN"/>
+    </net>
+    <net code="49" name="/Panel and power/CVIN_+1">
+      <node ref="J12" pin="T"/>
+      <node ref="J7" pin="5"/>
+    </net>
+    <net code="50" name="GND1">
+      <node ref="J12" pin="S"/>
+      <node ref="J10" pin="S"/>
+      <node ref="J6" pin="S"/>
+      <node ref="J2" pin="S"/>
+      <node ref="J17" pin="S"/>
+      <node ref="J7" pin="1"/>
+      <node ref="J3" pin="S"/>
+      <node ref="J16" pin="S"/>
+      <node ref="J14" pin="S"/>
+      <node ref="J15" pin="S"/>
+    </net>
+    <net code="51" name="Net-(D9-Pad1)">
+      <node ref="D9" pin="1"/>
+      <node ref="RV8" pin="3"/>
+    </net>
+    <net code="52" name="Net-(D7-Pad1)">
       <node ref="D7" pin="1"/>
-      <node ref="RV4" pin="3"/>
+      <node ref="RV6" pin="3"/>
+    </net>
+    <net code="53" name="Net-(D8-Pad1)">
+      <node ref="RV7" pin="3"/>
+      <node ref="D8" pin="1"/>
+    </net>
+    <net code="54" name="Net-(J3-PadTN)">
+      <node ref="J3" pin="TN"/>
+    </net>
+    <net code="55" name="Net-(D2-Pad2)">
+      <node ref="J5" pin="10"/>
+      <node ref="D2" pin="2"/>
+      <node ref="J5" pin="9"/>
+    </net>
+    <net code="56" name="Net-(D3-Pad1)">
+      <node ref="J5" pin="1"/>
+      <node ref="J5" pin="2"/>
+      <node ref="D3" pin="1"/>
     </net>
     <net code="57" name="Net-(D6-Pad1)">
       <node ref="D6" pin="1"/>
-      <node ref="RV3" pin="3"/>
+      <node ref="RV5" pin="3"/>
     </net>
     <net code="58" name="Net-(D5-Pad1)">
       <node ref="D5" pin="1"/>
-      <node ref="RV2" pin="3"/>
+      <node ref="RV4" pin="3"/>
+    </net>
+    <net code="59" name="Net-(D4-Pad1)">
+      <node ref="RV3" pin="3"/>
+      <node ref="D4" pin="1"/>
     </net>
   </nets>
 </export>
