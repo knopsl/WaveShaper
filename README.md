@@ -10,7 +10,7 @@ In Barton's design the seven signals (which are 0, 1, 2, and 3 octaves above and
 
 An additional modification to Barton's design is that the gain on the output stage can be varied using a pot on the panel. This allows reducing the gain to avoid clipping when mixing multiple large signals, avoiding the need to turn down all the channel pots and allowing use of their full range.
 
-The module consists of a front panel and three PCBs. One of these is the PCB for the original 4046 Wave Shaper, available from Barton, assembled mostly as designed but with a few things changed. The second is a PCB holding the board mounted pots and switch as well as the parts associated with the voltage controlled mixer (basically two chips, seven diodes, and 16 resistors) and the power input section. The third just holds the board mounted input and output jacks.
+The module consists of a front panel and three PCBs. One of these is the PCB for the original 4046 Wave Shaper, available from Barton, assembled mostly as designed but with a few things changed. The second is a PCB holding the board mounted pots and switch as well as the parts associated with the voltage controlled mixer and the power input section. The third just holds the board mounted input and output jacks.
 
 ## Photos
 
