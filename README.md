@@ -1,5 +1,7 @@
 # VC 4046 Wave Shaper
 
+**Prototype has been tested, some issues found. Corrected version not yet tested! ASSUME NOTHING WORKS UNTIL THIS NOTICE IS REMOVED!**
+
 This is a modification of the Barton Musical Circuits [4046 Wave Shaper](http://www.bartonmusicalcircuits.com/4046/), a module described by Barton as follows:
 
 > This is an all analog synthesizer module used to create new timbres and waveforms with your existing VCOs. It uses a CD4046 phase locked loop chip in combination with a binary counter to multiply the frequency of the input signal. It then has 7 outputs divided down from that multiplied frequency which are mixed together. It's simple to use and has a distinct sound.
