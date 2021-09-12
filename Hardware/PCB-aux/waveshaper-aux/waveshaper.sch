@@ -455,7 +455,7 @@ RIPOUT_-1
 Text Label 3800 3950 0    50   ~ 0
 RIPOUT_-2
 Text Notes 1150 1800 0    50   ~ 0
-This is used in conjunction with Barton's original PCB,\nbuilt with these changes:\n• Pots omitted\n• Output capacitors moved to pots pads 2-3\n• Ribbon cable mounted at capacitors pads\n• Output stage feedback resistor omitted, 100k* pot wired to its pads\n• Shrouded power header replaced by open pin header on underside\n• 10 uF rail to ground capacitors omitted\n• 10R capacitors replaced with 0R (or jumpers)\n• 10 mm M3 nylon spacer glued to underside\n\n*10Vpp output with 0–10V CV. Use 200k pot with 0–5V CV.
+This is used in conjunction with Barton's original PCB,\nbuilt with these changes:\n• Pots omitted\n• Output capacitors moved to pots pads 2-3\n• Ribbon cable mounted at capacitors pads\n• Output stage feedback resistor omitted, 100k* pot wired to its pads\n• Shrouded power header replaced by open pin header on underside\n• 10 uF rail to ground capacitors omitted\n• 10R resistors replaced with 0R (or jumpers)\n• 10 mm M3 nylon spacer glued to underside\n\n*10Vpp output with 0–10V CV. Use 200k pot with 0–5V CV.
 Wire Wire Line
 	5000 2750 6600 2750
 Wire Wire Line
