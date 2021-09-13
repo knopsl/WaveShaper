@@ -1141,32 +1141,32 @@ P_+3
 Wire Wire Line
 	400  6900 350  6900
 $Comp
-L Amplifier_Operational:MCP6004 U?
+L ao_symbols:TL074 U?
 U 5 1 61618F1C
 P 1000 6950
 AR Path="/61618F1C" Ref="U?"  Part="3" 
 AR Path="/5F1DEF77/61618F1C" Ref="U3"  Part="5" 
 F 0 "U3" H 958 6996 50  0000 L CNN
-F 1 "MCP6004" H 958 6905 50  0000 L CNN
+F 1 "TL074" H 958 6905 50  0000 L CNN
 F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 950 7050 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 1050 7150 50  0001 C CNN
 F 4 "Tayda" H 1000 6950 50  0001 C CNN "Vendor"
-F 5 "" H 1000 6950 50  0001 C CNN "SKU"
+F 5 "A-1138" H 1000 6950 50  0001 C CNN "SKU"
 	5    1000 6950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:MCP6004 U?
+L ao_symbols:TL074 U?
 U 5 1 6166A74D
 P 1950 6950
 AR Path="/6166A74D" Ref="U?"  Part="3" 
 AR Path="/5F1DEF77/6166A74D" Ref="U4"  Part="5" 
 F 0 "U4" H 1908 6996 50  0000 L CNN
-F 1 "MCP6004" H 1908 6905 50  0000 L CNN
+F 1 "TL074" H 1908 6905 50  0000 L CNN
 F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 1900 7050 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 2000 7150 50  0001 C CNN
 F 4 "Tayda" H 1950 6950 50  0001 C CNN "Vendor"
-F 5 "" H 1950 6950 50  0001 C CNN "SKU"
+F 5 "A-1138" H 1950 6950 50  0001 C CNN "SKU"
 	5    1950 6950
 	1    0    0    -1  
 $EndComp

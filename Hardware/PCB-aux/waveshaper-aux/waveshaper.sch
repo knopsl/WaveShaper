@@ -592,7 +592,7 @@ L ao_symbols:TL074 U4
 U 3 1 61610B3F
 P 9350 2250
 F 0 "U4" H 9350 2617 50  0000 C CNN
-F 1 "MCP6004" H 9350 2526 50  0000 C CNN
+F 1 "TL074" H 9350 2526 50  0000 C CNN
 F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 9300 2350 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 9400 2450 50  0001 C CNN
 F 4 "Tayda" H 9350 2250 50  0001 C CNN "Vendor"
@@ -605,7 +605,7 @@ L ao_symbols:TL074 U4
 U 4 1 61610B4E
 P 9350 2900
 F 0 "U4" H 9350 3267 50  0000 C CNN
-F 1 "MCP6004" H 9350 3176 50  0000 C CNN
+F 1 "TL074" H 9350 3176 50  0000 C CNN
 F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 9300 3000 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 9400 3100 50  0001 C CNN
 F 4 "Tayda" H 9350 2900 50  0001 C CNN "Vendor"
@@ -618,7 +618,7 @@ L ao_symbols:TL074 U4
 U 2 1 61610B30
 P 9350 950
 F 0 "U4" H 9350 1317 50  0000 C CNN
-F 1 "MCP6004" H 9350 1226 50  0000 C CNN
+F 1 "TL074" H 9350 1226 50  0000 C CNN
 F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 9300 1050 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 9400 1150 50  0001 C CNN
 F 4 "Tayda" H 9350 950 50  0001 C CNN "Vendor"
@@ -627,15 +627,15 @@ F 5 "A-1138" H 9350 950 50  0001 C CNN "SKU"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:MCP6004 U4
+L ao_symbols:TL074 U4
 U 1 1 61610B21
 P 9350 1600
 F 0 "U4" H 9350 1967 50  0000 C CNN
-F 1 "MCP6004" H 9350 1876 50  0000 C CNN
+F 1 "TL074" H 9350 1876 50  0000 C CNN
 F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 9300 1700 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 9400 1800 50  0001 C CNN
 F 4 "Tayda" H 9350 1600 50  0001 C CNN "Vendor"
-F 5 "" H 9350 1600 50  0001 C CNN "SKU"
+F 5 "A-1138" H 9350 1600 50  0001 C CNN "SKU"
 	1    9350 1600
 	1    0    0    -1  
 $EndComp
@@ -644,7 +644,7 @@ L ao_symbols:TL074 U3
 U 4 1 616095AF
 P 7900 2900
 F 0 "U3" H 7900 3267 50  0000 C CNN
-F 1 "MCP6004" H 7900 3176 50  0000 C CNN
+F 1 "TL074" H 7900 3176 50  0000 C CNN
 F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 7850 3000 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 7950 3100 50  0001 C CNN
 F 4 "Tayda" H 7900 2900 50  0001 C CNN "Vendor"
@@ -657,7 +657,7 @@ L ao_symbols:TL074 U3
 U 2 1 61605FF6
 P 7900 950
 F 0 "U3" H 7900 1317 50  0000 C CNN
-F 1 "MCP6004" H 7900 1226 50  0000 C CNN
+F 1 "TL074" H 7900 1226 50  0000 C CNN
 F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 7850 1050 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 7950 1150 50  0001 C CNN
 F 4 "Tayda" H 7900 950 50  0001 C CNN "Vendor"
@@ -666,15 +666,15 @@ F 5 "A-1138" H 7900 950 50  0001 C CNN "SKU"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:MCP6004 U3
+L ao_symbols:TL074 U3
 U 1 1 61602A36
 P 7900 1600
 F 0 "U3" H 7900 1967 50  0000 C CNN
-F 1 "MCP6004" H 7900 1876 50  0000 C CNN
+F 1 "TL074" H 7900 1876 50  0000 C CNN
 F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 7850 1700 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 7950 1800 50  0001 C CNN
-F 4 "" H 7900 1600 50  0001 C CNN "Vendor"
-F 5 "" H 7900 1600 50  0001 C CNN "SKU"
+F 4 "Tayda" H 7900 1600 50  0001 C CNN "Vendor"
+F 5 "A-1138" H 7900 1600 50  0001 C CNN "SKU"
 	1    7900 1600
 	1    0    0    -1  
 $EndComp
@@ -683,7 +683,7 @@ L ao_symbols:TL074 U3
 U 3 1 61607CDC
 P 7900 2250
 F 0 "U3" H 7900 2617 50  0000 C CNN
-F 1 "MCP6004" H 7900 2526 50  0000 C CNN
+F 1 "TL074" H 7900 2526 50  0000 C CNN
 F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 7850 2350 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 7950 2450 50  0001 C CNN
 F 4 "Tayda" H 7900 2250 50  0001 C CNN "Vendor"
