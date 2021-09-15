@@ -1125,159 +1125,21 @@ $EndComp
 Wire Wire Line
 	2350 4100 2350 4200
 Text GLabel 7400 4350 2    50   Output ~ 0
-P_-3
+CV_-3
 Text GLabel 6600 4350 2    50   Output ~ 0
-P_-2
+CV_-2
 Text GLabel 5800 4350 2    50   Output ~ 0
-P_-1
+CV_-1
 Text GLabel 5050 4350 2    50   Output ~ 0
-P_0
+CV_0
 Text GLabel 4250 4350 2    50   Output ~ 0
-P_+1
+CV_+1
 Text GLabel 3450 4350 2    50   Output ~ 0
-P_+2
+CV_+2
 Text GLabel 2650 4350 2    50   Output ~ 0
-P_+3
+CV_+3
 Wire Wire Line
 	400  6900 350  6900
-$Comp
-L Amplifier_Operational:MCP6004 U?
-U 5 1 61618F1C
-P 1000 6950
-AR Path="/61618F1C" Ref="U?"  Part="3" 
-AR Path="/5F1DEF77/61618F1C" Ref="U3"  Part="5" 
-F 0 "U3" H 958 6996 50  0000 L CNN
-F 1 "MCP6004" H 958 6905 50  0000 L CNN
-F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 950 7050 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 1050 7150 50  0001 C CNN
-F 4 "Tayda" H 1000 6950 50  0001 C CNN "Vendor"
-F 5 "" H 1000 6950 50  0001 C CNN "SKU"
-	5    1000 6950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:MCP6004 U?
-U 5 1 6166A74D
-P 1950 6950
-AR Path="/6166A74D" Ref="U?"  Part="3" 
-AR Path="/5F1DEF77/6166A74D" Ref="U4"  Part="5" 
-F 0 "U4" H 1908 6996 50  0000 L CNN
-F 1 "MCP6004" H 1908 6905 50  0000 L CNN
-F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 1900 7050 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 2000 7150 50  0001 C CNN
-F 4 "Tayda" H 1950 6950 50  0001 C CNN "Vendor"
-F 5 "" H 1950 6950 50  0001 C CNN "SKU"
-	5    1950 6950
-	1    0    0    -1  
-$EndComp
-$Comp
-L ao_symbols:C C?
-U 1 1 6166C3ED
-P 1400 6950
-AR Path="/5F1DEF77/5F25E2E1/6166C3ED" Ref="C?"  Part="1" 
-AR Path="/5F1DEF77/6166C3ED" Ref="C1"  Part="1" 
-AR Path="/6166C3ED" Ref="C?"  Part="1" 
-F 0 "C1" H 1515 6996 50  0000 L CNN
-F 1 "100nF" H 1515 6905 50  0000 L CNN
-F 2 "ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 1438 6800 50  0001 C CNN
-F 3 "~" H 1400 6950 50  0001 C CNN
-F 4 "A-553" H 1400 6950 50  0001 C CNN "SKU"
-F 5 "Tayda" H 1400 6950 50  0001 C CNN "Vendor"
-	1    1400 6950
-	1    0    0    -1  
-$EndComp
-$Comp
-L ao_symbols:C C?
-U 1 1 6167A559
-P 2350 6950
-AR Path="/5F1DEF77/5F25E2E1/6167A559" Ref="C?"  Part="1" 
-AR Path="/5F1DEF77/6167A559" Ref="C2"  Part="1" 
-AR Path="/6167A559" Ref="C?"  Part="1" 
-F 0 "C2" H 2465 6996 50  0000 L CNN
-F 1 "100nF" H 2465 6905 50  0000 L CNN
-F 2 "ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 2388 6800 50  0001 C CNN
-F 3 "~" H 2350 6950 50  0001 C CNN
-F 4 "A-553" H 2350 6950 50  0001 C CNN "SKU"
-F 5 "Tayda" H 2350 6950 50  0001 C CNN "Vendor"
-	1    2350 6950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	900  6650 900  6600
-Wire Wire Line
-	900  6600 1400 6600
-Wire Wire Line
-	2350 6600 2350 6800
-Wire Wire Line
-	1850 6650 1850 6600
-Connection ~ 1850 6600
-Wire Wire Line
-	1850 6600 2150 6600
-Wire Wire Line
-	1400 6800 1400 6600
-Connection ~ 1400 6600
-Wire Wire Line
-	1400 6600 1850 6600
-Wire Wire Line
-	900  7250 900  7300
-Wire Wire Line
-	1400 7100 1400 7300
-Wire Wire Line
-	1850 7250 1850 7300
-Wire Wire Line
-	2350 7100 2350 7300
-$Comp
-L power:GND #PWR?
-U 1 1 616D7ECA
-P 900 7300
-AR Path="/616D7ECA" Ref="#PWR?"  Part="1" 
-AR Path="/5F1DEF77/616D7ECA" Ref="#PWR011"  Part="1" 
-F 0 "#PWR011" H 900 7050 50  0001 C CNN
-F 1 "GND" H 905 7127 50  0000 C CNN
-F 2 "" H 900 7300 50  0001 C CNN
-F 3 "" H 900 7300 50  0001 C CNN
-	1    900  7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 616D8553
-P 1400 7300
-AR Path="/616D8553" Ref="#PWR?"  Part="1" 
-AR Path="/5F1DEF77/616D8553" Ref="#PWR013"  Part="1" 
-F 0 "#PWR013" H 1400 7050 50  0001 C CNN
-F 1 "GND" H 1405 7127 50  0000 C CNN
-F 2 "" H 1400 7300 50  0001 C CNN
-F 3 "" H 1400 7300 50  0001 C CNN
-	1    1400 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 616D8867
-P 1850 7300
-AR Path="/616D8867" Ref="#PWR?"  Part="1" 
-AR Path="/5F1DEF77/616D8867" Ref="#PWR014"  Part="1" 
-F 0 "#PWR014" H 1850 7050 50  0001 C CNN
-F 1 "GND" H 1855 7127 50  0000 C CNN
-F 2 "" H 1850 7300 50  0001 C CNN
-F 3 "" H 1850 7300 50  0001 C CNN
-	1    1850 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 616D8ADD
-P 2350 7300
-AR Path="/616D8ADD" Ref="#PWR?"  Part="1" 
-AR Path="/5F1DEF77/616D8ADD" Ref="#PWR018"  Part="1" 
-F 0 "#PWR018" H 2350 7050 50  0001 C CNN
-F 1 "GND" H 2355 7127 50  0000 C CNN
-F 2 "" H 2350 7300 50  0001 C CNN
-F 3 "" H 2350 7300 50  0001 C CNN
-	1    2350 7300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8400 5250 8550 5250
 Text Label 6800 5550 2    50   ~ 0
@@ -1500,22 +1362,6 @@ Wire Wire Line
 Connection ~ 1200 4000
 Wire Wire Line
 	1200 4000 1200 4050
-$Comp
-L power:+12V #PWR?
-U 1 1 61906BA9
-P 2150 6600
-AR Path="/5F1DEF77/5F25E2E1/61906BA9" Ref="#PWR?"  Part="1" 
-AR Path="/5F1DEF77/61906BA9" Ref="#PWR0101"  Part="1" 
-F 0 "#PWR0101" H 2150 6450 50  0001 C CNN
-F 1 "+12V" H 2165 6773 50  0000 C CNN
-F 2 "" H 2150 6600 50  0001 C CNN
-F 3 "" H 2150 6600 50  0001 C CNN
-	1    2150 6600
-	1    0    0    -1  
-$EndComp
-Connection ~ 2150 6600
-Wire Wire Line
-	2150 6600 2350 6600
 Text Label 2200 5400 0    50   ~ 0
 +12V_IN
 Text Label 2200 5800 0    50   ~ 0

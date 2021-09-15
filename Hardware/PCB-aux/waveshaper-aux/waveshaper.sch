@@ -129,7 +129,7 @@ L Device:R R7
 U 1 1 5F04F04C
 P 6150 4550
 F 0 "R7" H 6220 4596 50  0000 L CNN
-F 1 "100k" H 6220 4505 50  0000 L CNN
+F 1 "1M" H 6220 4505 50  0000 L CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6080 4550 50  0001 C CNN
 F 3 "~" H 6150 4550 50  0001 C CNN
 	1    6150 4550
@@ -154,7 +154,7 @@ L Device:R R6
 U 1 1 5F07C8DE
 P 6150 3750
 F 0 "R6" H 6220 3796 50  0000 L CNN
-F 1 "100k" H 6220 3705 50  0000 L CNN
+F 1 "1M" H 6220 3705 50  0000 L CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6080 3750 50  0001 C CNN
 F 3 "~" H 6150 3750 50  0001 C CNN
 	1    6150 3750
@@ -178,7 +178,7 @@ L Device:R R5
 U 1 1 5F07C33D
 P 6150 2950
 F 0 "R5" H 6220 2996 50  0000 L CNN
-F 1 "100k" H 6220 2905 50  0000 L CNN
+F 1 "1M" H 6220 2905 50  0000 L CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6080 2950 50  0001 C CNN
 F 3 "~" H 6150 2950 50  0001 C CNN
 	1    6150 2950
@@ -200,7 +200,7 @@ L Device:R R4
 U 1 1 5F04EB26
 P 5000 5300
 F 0 "R4" H 5070 5346 50  0000 L CNN
-F 1 "100k" H 5070 5255 50  0000 L CNN
+F 1 "1M" H 5070 5255 50  0000 L CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4930 5300 50  0001 C CNN
 F 3 "~" H 5000 5300 50  0001 C CNN
 	1    5000 5300
@@ -222,7 +222,7 @@ L Device:R R3
 U 1 1 5F04E1E9
 P 5000 4500
 F 0 "R3" H 5070 4546 50  0000 L CNN
-F 1 "100k" H 5070 4455 50  0000 L CNN
+F 1 "1M" H 5070 4455 50  0000 L CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4930 4500 50  0001 C CNN
 F 3 "~" H 5000 4500 50  0001 C CNN
 	1    5000 4500
@@ -244,7 +244,7 @@ L Device:R R2
 U 1 1 5F04DE0C
 P 5000 3700
 F 0 "R2" H 5070 3746 50  0000 L CNN
-F 1 "100k" H 5070 3655 50  0000 L CNN
+F 1 "1M" H 5070 3655 50  0000 L CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4930 3700 50  0001 C CNN
 F 3 "~" H 5000 3700 50  0001 C CNN
 	1    5000 3700
@@ -266,7 +266,7 @@ L Device:R R1
 U 1 1 5F04D4E6
 P 5000 2900
 F 0 "R1" H 5070 2946 50  0000 L CNN
-F 1 "100k" H 5070 2855 50  0000 L CNN
+F 1 "1M" H 5070 2855 50  0000 L CNN
 F 2 "ao_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4930 2900 50  0001 C CNN
 F 3 "~" H 5000 2900 50  0001 C CNN
 	1    5000 2900
@@ -464,231 +464,4 @@ Wire Wire Line
 	5000 4350 6600 4350
 Wire Wire Line
 	5000 5150 6600 5150
-Wire Wire Line
-	7600 1050 7550 1050
-Wire Wire Line
-	7550 1050 7550 1200
-Wire Wire Line
-	7550 1200 8250 1200
-Wire Wire Line
-	8250 1200 8250 950 
-Wire Wire Line
-	8250 950  8200 950 
-Text GLabel 8250 950  2    50   Output ~ 0
-CV_+3
-Text GLabel 7600 850  0    50   Input ~ 0
-P_+3
-Wire Wire Line
-	7600 1700 7550 1700
-Wire Wire Line
-	7550 1700 7550 1850
-Wire Wire Line
-	7550 1850 8250 1850
-Wire Wire Line
-	8250 1850 8250 1600
-Wire Wire Line
-	8250 1600 8200 1600
-Text GLabel 8250 1600 2    50   Output ~ 0
-CV_+2
-Text GLabel 7600 1500 0    50   Input ~ 0
-P_+2
-Wire Wire Line
-	7600 2350 7550 2350
-Wire Wire Line
-	7550 2350 7550 2500
-Wire Wire Line
-	7550 2500 8250 2500
-Wire Wire Line
-	8250 2500 8250 2250
-Wire Wire Line
-	8250 2250 8200 2250
-Text GLabel 8250 2250 2    50   Output ~ 0
-CV_+1
-Text GLabel 7600 2150 0    50   Input ~ 0
-P_+1
-Wire Wire Line
-	7600 3000 7550 3000
-Wire Wire Line
-	7550 3000 7550 3150
-Wire Wire Line
-	7550 3150 8250 3150
-Wire Wire Line
-	8250 3150 8250 2900
-Wire Wire Line
-	8250 2900 8200 2900
-Text GLabel 8250 2900 2    50   Output ~ 0
-CV_0
-Text GLabel 7600 2800 0    50   Input ~ 0
-P_0
-Wire Wire Line
-	9050 1050 9000 1050
-Wire Wire Line
-	9000 1050 9000 1200
-Wire Wire Line
-	9000 1200 9700 1200
-Wire Wire Line
-	9700 1200 9700 950 
-Wire Wire Line
-	9700 950  9650 950 
-Text GLabel 9700 950  2    50   Output ~ 0
-CV_-3
-Text GLabel 9050 850  0    50   Input ~ 0
-P_-3
-Wire Wire Line
-	9050 1700 9000 1700
-Wire Wire Line
-	9000 1700 9000 1850
-Wire Wire Line
-	9000 1850 9700 1850
-Wire Wire Line
-	9700 1850 9700 1600
-Wire Wire Line
-	9700 1600 9650 1600
-Text GLabel 9700 1600 2    50   Output ~ 0
-CV_-2
-Text GLabel 9050 1500 0    50   Input ~ 0
-P_-2
-Wire Wire Line
-	9050 2350 9000 2350
-Wire Wire Line
-	9000 2350 9000 2500
-Wire Wire Line
-	9000 2500 9700 2500
-Wire Wire Line
-	9700 2500 9700 2250
-Wire Wire Line
-	9700 2250 9650 2250
-Text GLabel 9700 2250 2    50   Output ~ 0
-CV_-1
-Text GLabel 9050 2150 0    50   Input ~ 0
-P_-1
-Wire Wire Line
-	9050 3000 9000 3000
-Wire Wire Line
-	9000 3000 9000 3150
-Wire Wire Line
-	9000 3150 9700 3150
-Wire Wire Line
-	9700 3150 9700 2900
-Wire Wire Line
-	9700 2900 9650 2900
-$Comp
-L power:GND #PWR010
-U 1 1 61612E36
-P 8900 2850
-F 0 "#PWR010" H 8900 2600 50  0001 C CNN
-F 1 "GND" H 8905 2677 50  0000 C CNN
-F 2 "" H 8900 2850 50  0001 C CNN
-F 3 "" H 8900 2850 50  0001 C CNN
-	1    8900 2850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8900 2850 8900 2800
-Wire Wire Line
-	8900 2800 9050 2800
-$Comp
-L ao_symbols:TL074 U4
-U 3 1 61610B3F
-P 9350 2250
-F 0 "U4" H 9350 2617 50  0000 C CNN
-F 1 "MCP6004" H 9350 2526 50  0000 C CNN
-F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 9300 2350 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 9400 2450 50  0001 C CNN
-F 4 "Tayda" H 9350 2250 50  0001 C CNN "Vendor"
-F 5 "A-1138" H 9350 2250 50  0001 C CNN "SKU"
-	3    9350 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L ao_symbols:TL074 U4
-U 4 1 61610B4E
-P 9350 2900
-F 0 "U4" H 9350 3267 50  0000 C CNN
-F 1 "MCP6004" H 9350 3176 50  0000 C CNN
-F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 9300 3000 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 9400 3100 50  0001 C CNN
-F 4 "Tayda" H 9350 2900 50  0001 C CNN "Vendor"
-F 5 "A-1138" H 9350 2900 50  0001 C CNN "SKU"
-	4    9350 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L ao_symbols:TL074 U4
-U 2 1 61610B30
-P 9350 950
-F 0 "U4" H 9350 1317 50  0000 C CNN
-F 1 "MCP6004" H 9350 1226 50  0000 C CNN
-F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 9300 1050 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 9400 1150 50  0001 C CNN
-F 4 "Tayda" H 9350 950 50  0001 C CNN "Vendor"
-F 5 "A-1138" H 9350 950 50  0001 C CNN "SKU"
-	2    9350 950 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:MCP6004 U4
-U 1 1 61610B21
-P 9350 1600
-F 0 "U4" H 9350 1967 50  0000 C CNN
-F 1 "MCP6004" H 9350 1876 50  0000 C CNN
-F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 9300 1700 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 9400 1800 50  0001 C CNN
-F 4 "Tayda" H 9350 1600 50  0001 C CNN "Vendor"
-F 5 "" H 9350 1600 50  0001 C CNN "SKU"
-	1    9350 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L ao_symbols:TL074 U3
-U 4 1 616095AF
-P 7900 2900
-F 0 "U3" H 7900 3267 50  0000 C CNN
-F 1 "MCP6004" H 7900 3176 50  0000 C CNN
-F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 7850 3000 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 7950 3100 50  0001 C CNN
-F 4 "Tayda" H 7900 2900 50  0001 C CNN "Vendor"
-F 5 "A-1138" H 7900 2900 50  0001 C CNN "SKU"
-	4    7900 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L ao_symbols:TL074 U3
-U 2 1 61605FF6
-P 7900 950
-F 0 "U3" H 7900 1317 50  0000 C CNN
-F 1 "MCP6004" H 7900 1226 50  0000 C CNN
-F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 7850 1050 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 7950 1150 50  0001 C CNN
-F 4 "Tayda" H 7900 950 50  0001 C CNN "Vendor"
-F 5 "A-1138" H 7900 950 50  0001 C CNN "SKU"
-	2    7900 950 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Amplifier_Operational:MCP6004 U3
-U 1 1 61602A36
-P 7900 1600
-F 0 "U3" H 7900 1967 50  0000 C CNN
-F 1 "MCP6004" H 7900 1876 50  0000 C CNN
-F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 7850 1700 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 7950 1800 50  0001 C CNN
-F 4 "" H 7900 1600 50  0001 C CNN "Vendor"
-F 5 "" H 7900 1600 50  0001 C CNN "SKU"
-	1    7900 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L ao_symbols:TL074 U3
-U 3 1 61607CDC
-P 7900 2250
-F 0 "U3" H 7900 2617 50  0000 C CNN
-F 1 "MCP6004" H 7900 2526 50  0000 C CNN
-F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 7850 2350 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 7950 2450 50  0001 C CNN
-F 4 "Tayda" H 7900 2250 50  0001 C CNN "Vendor"
-F 5 "A-1138" H 7900 2250 50  0001 C CNN "SKU"
-	3    7900 2250
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
