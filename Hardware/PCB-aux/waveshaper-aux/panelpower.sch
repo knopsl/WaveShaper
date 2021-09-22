@@ -843,13 +843,13 @@ $EndComp
 $Comp
 L ao_symbols:Graphic GRAF1
 U 1 1 611025C9
-P 9300 5450
-F 0 "GRAF1" H 9578 5496 50  0000 L CNN
-F 1 "CC0 logo" H 9578 5405 50  0000 L CNN
-F 2 "ao_tht:CC0_logo" H 9300 5450 50  0001 C CNN
-F 3 "" H 9300 5450 50  0001 C CNN
-F 4 "DNF" H 9300 5450 50  0001 C CNN "Config"
-	1    9300 5450
+P 9400 5200
+F 0 "GRAF1" H 9678 5246 50  0000 L CNN
+F 1 "CC0 logo" H 9678 5155 50  0000 L CNN
+F 2 "ao_tht:CC0_logo" H 9400 5200 50  0001 C CNN
+F 3 "" H 9400 5200 50  0001 C CNN
+F 4 "DNF" H 9400 5200 50  0001 C CNN "Config"
+	1    9400 5200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -954,7 +954,7 @@ AR Path="/5FAEB01F" Ref="RV?"  Part="1"
 AR Path="/5F1DEF77/5FAEB01F" Ref="RV8"  Part="1" 
 F 0 "RV8" H 7031 3904 50  0000 R CNN
 F 1 "B100k" H 7031 3995 50  0000 R CNN
-F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered" H 7100 3950 50  0001 C CNN
+F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 7100 3950 50  0001 C CNN
 F 3 "~" H 7100 3950 50  0001 C CNN
 F 4 "A-1848" H 7100 3950 50  0001 C CNN "SKU"
 F 5 "Tayda" H 7100 3950 50  0001 C CNN "Vendor"
@@ -997,7 +997,7 @@ AR Path="/5FAE3F39" Ref="RV?"  Part="1"
 AR Path="/5F1DEF77/5FAE3F39" Ref="RV6"  Part="1" 
 F 0 "RV6" H 5431 3904 50  0000 R CNN
 F 1 "B100k" H 5431 3995 50  0000 R CNN
-F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered" H 5500 3950 50  0001 C CNN
+F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 5500 3950 50  0001 C CNN
 F 3 "~" H 5500 3950 50  0001 C CNN
 F 4 "A-1848" H 5500 3950 50  0001 C CNN "SKU"
 F 5 "Tayda" H 5500 3950 50  0001 C CNN "Vendor"
@@ -1027,7 +1027,7 @@ AR Path="/5FAE1BD5" Ref="RV?"  Part="1"
 AR Path="/5F1DEF77/5FAE1BD5" Ref="RV5"  Part="1" 
 F 0 "RV5" H 4681 3904 50  0000 R CNN
 F 1 "B100k" H 4681 3995 50  0000 R CNN
-F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered" H 4750 3950 50  0001 C CNN
+F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 4750 3950 50  0001 C CNN
 F 3 "~" H 4750 3950 50  0001 C CNN
 F 4 "A-1848" H 4750 3950 50  0001 C CNN "SKU"
 F 5 "Tayda" H 4750 3950 50  0001 C CNN "Vendor"
@@ -1057,7 +1057,7 @@ AR Path="/5FAE0325" Ref="RV?"  Part="1"
 AR Path="/5F1DEF77/5FAE0325" Ref="RV4"  Part="1" 
 F 0 "RV4" H 3881 3904 50  0000 R CNN
 F 1 "B100k" H 3881 3995 50  0000 R CNN
-F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered" H 3950 3950 50  0001 C CNN
+F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 3950 3950 50  0001 C CNN
 F 3 "~" H 3950 3950 50  0001 C CNN
 F 4 "A-1848" H 3950 3950 50  0001 C CNN "SKU"
 F 5 "Tayda" H 3950 3950 50  0001 C CNN "Vendor"
@@ -1087,7 +1087,7 @@ AR Path="/5FADE261" Ref="RV?"  Part="1"
 AR Path="/5F1DEF77/5FADE261" Ref="RV2"  Part="1" 
 F 0 "RV2" H 3081 3904 50  0000 R CNN
 F 1 "B100k" H 3081 3995 50  0000 R CNN
-F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered" H 3150 3950 50  0001 C CNN
+F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 3150 3950 50  0001 C CNN
 F 3 "~" H 3150 3950 50  0001 C CNN
 F 4 "A-1848" H 3150 3950 50  0001 C CNN "SKU"
 F 5 "Tayda" H 3150 3950 50  0001 C CNN "Vendor"
@@ -1102,7 +1102,7 @@ AR Path="/5F206831" Ref="RV?"  Part="1"
 AR Path="/5F1DEF77/5F206831" Ref="RV1"  Part="1" 
 F 0 "RV1" H 2281 3904 50  0000 R CNN
 F 1 "B100k" H 2281 3995 50  0000 R CNN
-F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered" H 2350 3950 50  0001 C CNN
+F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 2350 3950 50  0001 C CNN
 F 3 "~" H 2350 3950 50  0001 C CNN
 F 4 "A-1848" H 2350 3950 50  0001 C CNN "SKU"
 F 5 "Tayda" H 2350 3950 50  0001 C CNN "Vendor"
@@ -1213,7 +1213,7 @@ AR Path="/5FA4E2BA" Ref="RV?"  Part="1"
 AR Path="/5F1DEF77/5FA4E2BA" Ref="RV3"  Part="1" 
 F 0 "RV3" H 6881 5154 50  0000 R CNN
 F 1 "A100k" H 6881 5245 50  0000 R CNN
-F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered" H 6950 5200 50  0001 C CNN
+F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 6950 5200 50  0001 C CNN
 F 3 "~" H 6950 5200 50  0001 C CNN
 F 4 "A-1855" H 6950 5200 50  0001 C CNN "SKU"
 F 5 "Tayda" H 6950 5200 50  0001 C CNN "Vendor"
@@ -1263,7 +1263,7 @@ AR Path="/5FAE8BFF" Ref="RV?"  Part="1"
 AR Path="/5F1DEF77/5FAE8BFF" Ref="RV7"  Part="1" 
 F 0 "RV7" H 6231 3904 50  0000 R CNN
 F 1 "B100k" H 6231 3995 50  0000 R CNN
-F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical_CircularHoles_centered" H 6300 3950 50  0001 C CNN
+F 2 "ao_tht:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 6300 3950 50  0001 C CNN
 F 3 "~" H 6300 3950 50  0001 C CNN
 F 4 "A-1848" H 6300 3950 50  0001 C CNN "SKU"
 F 5 "Tayda" H 6300 3950 50  0001 C CNN "Vendor"
@@ -1723,4 +1723,16 @@ Wire Wire Line
 	2600 4350 2600 4400
 Wire Wire Line
 	2500 3950 2600 3950
+$Comp
+L ao_symbols:Graphic GRAF2
+U 1 1 6156BE3D
+P 9400 5500
+F 0 "GRAF2" H 9678 5546 50  0000 L CNN
+F 1 "Holes" H 9678 5455 50  0000 L CNN
+F 2 "waveshaper:waveshaper-holes" H 9400 5500 50  0001 C CNN
+F 3 "" H 9400 5500 50  0001 C CNN
+F 4 "DNF" H 9400 5500 50  0001 C CNN "Config"
+	1    9400 5500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
