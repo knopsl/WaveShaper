@@ -203,16 +203,16 @@ $EndComp
 $Comp
 L ao_symbols:AudioJack2_SwitchT J?
 U 1 1 5FB4A784
-P 6000 2150
+P 6950 1200
 AR Path="/5FB4A784" Ref="J?"  Part="1" 
 AR Path="/5F1DEF77/5FB4A784" Ref="J16"  Part="1" 
-F 0 "J16" H 6050 1800 50  0000 R CNN
-F 1 "AudioJack2_SwitchT" H 6375 1900 50  0000 R CNN
-F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 6000 2150 50  0001 C CNN
-F 3 "~" H 6000 2150 50  0001 C CNN
-F 4 "A-1121" H 6000 2150 50  0001 C CNN "SKU"
-F 5 "Tayda" H 6000 2150 50  0001 C CNN "Vendor"
-	1    6000 2150
+F 0 "J16" H 7000 850 50  0000 R CNN
+F 1 "AudioJack2_SwitchT" H 7325 950 50  0000 R CNN
+F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 6950 1200 50  0001 C CNN
+F 3 "~" H 6950 1200 50  0001 C CNN
+F 4 "A-1121" H 6950 1200 50  0001 C CNN "SKU"
+F 5 "Tayda" H 6950 1200 50  0001 C CNN "Vendor"
+	1    6950 1200
 	1    0    0    1   
 $EndComp
 $Comp
@@ -233,31 +233,31 @@ $EndComp
 $Comp
 L ao_symbols:AudioJack2_SwitchT J?
 U 1 1 5FB504B8
-P 7200 2150
+P 8150 1200
 AR Path="/5FB504B8" Ref="J?"  Part="1" 
 AR Path="/5F1DEF77/5FB504B8" Ref="J17"  Part="1" 
-F 0 "J17" H 7250 1800 50  0000 R CNN
-F 1 "AudioJack2_SwitchT" H 7575 1900 50  0000 R CNN
-F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 7200 2150 50  0001 C CNN
-F 3 "~" H 7200 2150 50  0001 C CNN
-F 4 "A-1121" H 7200 2150 50  0001 C CNN "SKU"
-F 5 "Tayda" H 7200 2150 50  0001 C CNN "Vendor"
-	1    7200 2150
+F 0 "J17" H 8200 850 50  0000 R CNN
+F 1 "AudioJack2_SwitchT" H 8525 950 50  0000 R CNN
+F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 8150 1200 50  0001 C CNN
+F 3 "~" H 8150 1200 50  0001 C CNN
+F 4 "A-1121" H 8150 1200 50  0001 C CNN "SKU"
+F 5 "Tayda" H 8150 1200 50  0001 C CNN "Vendor"
+	1    8150 1200
 	1    0    0    1   
 $EndComp
 $Comp
 L ao_symbols:AudioJack2_SwitchT J?
 U 1 1 5FB53AD4
-P 8400 2150
+P 9350 1200
 AR Path="/5FB53AD4" Ref="J?"  Part="1" 
 AR Path="/5F1DEF77/5FB53AD4" Ref="J18"  Part="1" 
-F 0 "J18" H 8450 1800 50  0000 R CNN
-F 1 "AudioJack2_SwitchT" H 8775 1900 50  0000 R CNN
-F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 8400 2150 50  0001 C CNN
-F 3 "~" H 8400 2150 50  0001 C CNN
-F 4 "A-1121" H 8400 2150 50  0001 C CNN "SKU"
-F 5 "Tayda" H 8400 2150 50  0001 C CNN "Vendor"
-	1    8400 2150
+F 0 "J18" H 9400 850 50  0000 R CNN
+F 1 "AudioJack2_SwitchT" H 9725 950 50  0000 R CNN
+F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 9350 1200 50  0001 C CNN
+F 3 "~" H 9350 1200 50  0001 C CNN
+F 4 "A-1121" H 9350 1200 50  0001 C CNN "SKU"
+F 5 "Tayda" H 9350 1200 50  0001 C CNN "Vendor"
+	1    9350 1200
 	1    0    0    1   
 $EndComp
 $Comp
@@ -291,13 +291,13 @@ F 5 "Tayda" H 2250 1200 50  0001 C CNN "Vendor"
 	1    0    0    1   
 $EndComp
 $Comp
-L ao_symbols:AudioJack2_SwitchT J?
+L ao_symbols:AudioJack2 J?
 U 1 1 5FB0D36D
 P 1100 1200
 AR Path="/5FB0D36D" Ref="J?"  Part="1" 
 AR Path="/5F1DEF77/5FB0D36D" Ref="J3"  Part="1" 
 F 0 "J3" H 1150 850 50  0000 R CNN
-F 1 "AudioJack2_SwitchT" H 1475 950 50  0000 R CNN
+F 1 "AudioJack2" H 1475 950 50  0000 R CNN
 F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 1100 1200 50  0001 C CNN
 F 3 "~" H 1100 1200 50  0001 C CNN
 F 4 "A-1121" H 1100 1200 50  0001 C CNN "SKU"
@@ -306,13 +306,13 @@ F 5 "Tayda" H 1100 1200 50  0001 C CNN "Vendor"
 	1    0    0    1   
 $EndComp
 $Comp
-L ao_symbols:AudioJack2_SwitchT J?
+L ao_symbols:AudioJack2 J?
 U 1 1 5FB0DC9B
 P 1100 1900
 AR Path="/5FB0DC9B" Ref="J?"  Part="1" 
 AR Path="/5F1DEF77/5FB0DC9B" Ref="J4"  Part="1" 
 F 0 "J4" H 1150 1550 50  0000 R CNN
-F 1 "AudioJack2_SwitchT" H 1475 1650 50  0000 R CNN
+F 1 "AudioJack2" H 1475 1650 50  0000 R CNN
 F 2 "ao_tht:Jack_6.35mm_PJ_629HAN" H 1100 1900 50  0001 C CNN
 F 3 "~" H 1100 1900 50  0001 C CNN
 F 4 "A-1121" H 1100 1900 50  0001 C CNN "SKU"
@@ -320,27 +320,11 @@ F 5 "Tayda" H 1100 1900 50  0001 C CNN "Vendor"
 	1    1100 1900
 	1    0    0    1   
 $EndComp
-NoConn ~ 1300 1800
-NoConn ~ 1300 1100
-Wire Wire Line
-	2450 1300 2800 1300
-Wire Wire Line
-	8600 2250 9050 2250
-Wire Wire Line
-	7400 2250 7850 2250
-Wire Wire Line
-	6200 2250 6650 2250
-Wire Wire Line
-	5950 1300 6400 1300
-Wire Wire Line
-	4750 1300 5200 1300
-Wire Wire Line
-	3550 1300 4000 1300
 Wire Notes Line
 	600  2800 10300 2800
 Wire Notes Line
 	10300 650  600  650 
-Text Notes 6950 1050 0    50   ~ 0
+Text Notes 7100 750  0    50   ~ 0
 Jack board components
 Wire Notes Line
 	600  7850 5950 7850
@@ -349,7 +333,7 @@ Wire Notes Line
 Wire Notes Line
 	5950 6400 10300 6400
 Wire Notes Line
-	600  850  600  8050
+	600  650  600  7850
 Text Notes 4300 3150 0    50   ~ 0
 Pot/switch board components. Power components\nare omitted from Barton PCB; a 2x5 plain header\non the underside replaces the shrouded power \nheader and jumpers replace 10R resistors.
 $Comp
@@ -430,165 +414,149 @@ Wire Wire Line
 Connection ~ 4950 5300
 Connection ~ 4950 6300
 Wire Wire Line
-	2450 1100 3000 1100
+	2450 1200 2800 1200
 Wire Wire Line
-	8600 2050 9250 2050
+	3550 1200 3900 1200
 Wire Wire Line
-	7400 2050 8050 2050
+	4750 1200 5100 1200
 Wire Wire Line
-	6200 2050 6850 2050
+	7150 1200 7500 1200
 Wire Wire Line
-	5950 1100 6600 1100
+	8350 1200 8700 1200
 Wire Wire Line
-	4750 1100 5400 1100
+	9550 1200 9900 1200
 Wire Wire Line
-	3550 1100 4200 1100
+	2975 6900 2975 7425
 Wire Wire Line
-	2450 1200 2900 1200
+	1525 6900 1525 7425
+Connection ~ 2975 7425
+Connection ~ 1525 7425
+Connection ~ 2975 6425
 Wire Wire Line
-	3550 1200 4100 1200
+	2975 6425 3650 6425
 Wire Wire Line
-	4750 1200 5300 1200
+	2975 6600 2975 6425
 Wire Wire Line
-	5950 1200 6500 1200
-Wire Wire Line
-	6200 2150 6750 2150
-Wire Wire Line
-	7400 2150 7950 2150
-Wire Wire Line
-	8600 2150 9150 2150
-Wire Wire Line
-	4425 7100 4425 7625
-Wire Wire Line
-	2975 7100 2975 7625
-Connection ~ 4425 7625
-Connection ~ 2975 7625
-Connection ~ 4425 6625
-Wire Wire Line
-	4425 6625 5100 6625
-Wire Wire Line
-	4425 6800 4425 6625
-Wire Wire Line
-	4425 7625 5100 7625
+	2975 7425 3650 7425
 $Comp
 L power:+12V #PWR?
 U 1 1 5F5BEC8B
-P 4425 6625
+P 2975 6425
 AR Path="/5F1DEF77/5F25E2E1/5F5BEC8B" Ref="#PWR?"  Part="1" 
 AR Path="/5F1DEF77/5F5BEC8B" Ref="#PWR037"  Part="1" 
 AR Path="/5F5BEC8B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR037" H 4425 6475 50  0001 C CNN
-F 1 "+12V" H 4440 6798 50  0000 C CNN
-F 2 "" H 4425 6625 50  0001 C CNN
-F 3 "" H 4425 6625 50  0001 C CNN
-	1    4425 6625
+F 0 "#PWR037" H 2975 6275 50  0001 C CNN
+F 1 "+12V" H 2990 6598 50  0000 C CNN
+F 2 "" H 2975 6425 50  0001 C CNN
+F 3 "" H 2975 6425 50  0001 C CNN
+	1    2975 6425
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F5BEC91
-P 4425 7625
+P 2975 7425
 AR Path="/5F1DEF77/5F25E2E1/5F5BEC91" Ref="#PWR?"  Part="1" 
 AR Path="/5F1DEF77/5F5BEC91" Ref="#PWR038"  Part="1" 
 AR Path="/5F5BEC91" Ref="#PWR?"  Part="1" 
-F 0 "#PWR038" H 4425 7375 50  0001 C CNN
-F 1 "GND" H 4430 7452 50  0000 C CNN
-F 2 "" H 4425 7625 50  0001 C CNN
-F 3 "" H 4425 7625 50  0001 C CNN
-	1    4425 7625
+F 0 "#PWR038" H 2975 7175 50  0001 C CNN
+F 1 "GND" H 2980 7252 50  0000 C CNN
+F 2 "" H 2975 7425 50  0001 C CNN
+F 3 "" H 2975 7425 50  0001 C CNN
+	1    2975 7425
 	1    0    0    -1  
 $EndComp
 $Comp
 L ao_symbols:C C?
 U 1 1 5F5BEC97
-P 4425 6950
+P 2975 6750
 AR Path="/5F1DEF77/5F25E2E1/5F5BEC97" Ref="C?"  Part="1" 
 AR Path="/5F1DEF77/5F5BEC97" Ref="C6"  Part="1" 
 AR Path="/5F5BEC97" Ref="C?"  Part="1" 
-F 0 "C6" H 4540 6996 50  0000 L CNN
-F 1 "100nF" H 4540 6905 50  0000 L CNN
-F 2 "ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 4463 6800 50  0001 C CNN
-F 3 "~" H 4425 6950 50  0001 C CNN
-F 4 "A-553" H 4425 6950 50  0001 C CNN "SKU"
-F 5 "Tayda" H 4425 6950 50  0001 C CNN "Vendor"
-	1    4425 6950
+F 0 "C6" H 3090 6796 50  0000 L CNN
+F 1 "100nF" H 3090 6705 50  0000 L CNN
+F 2 "ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 3013 6600 50  0001 C CNN
+F 3 "~" H 2975 6750 50  0001 C CNN
+F 4 "A-553" H 2975 6750 50  0001 C CNN "SKU"
+F 5 "Tayda" H 2975 6750 50  0001 C CNN "Vendor"
+	1    2975 6750
 	1    0    0    -1  
 $EndComp
 $Comp
 L 4xxx:4066 U1
 U 5 1 5F5BEC9D
-P 5100 7125
+P 3650 6925
 AR Path="/5F1DEF77/5F5BEC9D" Ref="U1"  Part="5" 
 AR Path="/5F5BEC9D" Ref="U?"  Part="5" 
-F 0 "U1" H 5330 7171 50  0000 L CNN
-F 1 "4066" H 5330 7080 50  0000 L CNN
-F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 5100 7125 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 5100 7125 50  0001 C CNN
-	5    5100 7125
+F 0 "U1" H 3880 6971 50  0000 L CNN
+F 1 "4066" H 3880 6880 50  0000 L CNN
+F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 3650 6925 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 3650 6925 50  0001 C CNN
+	5    3650 6925
 	1    0    0    -1  
 $EndComp
-Connection ~ 2975 6625
+Connection ~ 1525 6425
 Wire Wire Line
-	2975 6625 3650 6625
+	1525 6425 2200 6425
 Wire Wire Line
-	2975 6800 2975 6625
+	1525 6600 1525 6425
 Wire Wire Line
-	2975 7625 3650 7625
+	1525 7425 2200 7425
 $Comp
 L power:+12V #PWR?
 U 1 1 5F5BECA7
-P 2975 6625
+P 1525 6425
 AR Path="/5F1DEF77/5F25E2E1/5F5BECA7" Ref="#PWR?"  Part="1" 
 AR Path="/5F1DEF77/5F5BECA7" Ref="#PWR034"  Part="1" 
 AR Path="/5F5BECA7" Ref="#PWR?"  Part="1" 
-F 0 "#PWR034" H 2975 6475 50  0001 C CNN
-F 1 "+12V" H 2990 6798 50  0000 C CNN
-F 2 "" H 2975 6625 50  0001 C CNN
-F 3 "" H 2975 6625 50  0001 C CNN
-	1    2975 6625
+F 0 "#PWR034" H 1525 6275 50  0001 C CNN
+F 1 "+12V" H 1540 6598 50  0000 C CNN
+F 2 "" H 1525 6425 50  0001 C CNN
+F 3 "" H 1525 6425 50  0001 C CNN
+	1    1525 6425
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F5BECAD
-P 2975 7625
+P 1525 7425
 AR Path="/5F1DEF77/5F25E2E1/5F5BECAD" Ref="#PWR?"  Part="1" 
 AR Path="/5F1DEF77/5F5BECAD" Ref="#PWR035"  Part="1" 
 AR Path="/5F5BECAD" Ref="#PWR?"  Part="1" 
-F 0 "#PWR035" H 2975 7375 50  0001 C CNN
-F 1 "GND" H 2980 7452 50  0000 C CNN
-F 2 "" H 2975 7625 50  0001 C CNN
-F 3 "" H 2975 7625 50  0001 C CNN
-	1    2975 7625
+F 0 "#PWR035" H 1525 7175 50  0001 C CNN
+F 1 "GND" H 1530 7252 50  0000 C CNN
+F 2 "" H 1525 7425 50  0001 C CNN
+F 3 "" H 1525 7425 50  0001 C CNN
+	1    1525 7425
 	1    0    0    -1  
 $EndComp
 $Comp
 L ao_symbols:C C?
 U 1 1 5F5BECB3
-P 2975 6950
+P 1525 6750
 AR Path="/5F1DEF77/5F25E2E1/5F5BECB3" Ref="C?"  Part="1" 
 AR Path="/5F1DEF77/5F5BECB3" Ref="C5"  Part="1" 
 AR Path="/5F5BECB3" Ref="C?"  Part="1" 
-F 0 "C5" H 3090 6996 50  0000 L CNN
-F 1 "100nF" H 3090 6905 50  0000 L CNN
-F 2 "ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 3013 6800 50  0001 C CNN
-F 3 "~" H 2975 6950 50  0001 C CNN
-F 4 "A-553" H 2975 6950 50  0001 C CNN "SKU"
-F 5 "Tayda" H 2975 6950 50  0001 C CNN "Vendor"
-	1    2975 6950
+F 0 "C5" H 1640 6796 50  0000 L CNN
+F 1 "100nF" H 1640 6705 50  0000 L CNN
+F 2 "ao_tht:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 1563 6600 50  0001 C CNN
+F 3 "~" H 1525 6750 50  0001 C CNN
+F 4 "A-553" H 1525 6750 50  0001 C CNN "SKU"
+F 5 "Tayda" H 1525 6750 50  0001 C CNN "Vendor"
+	1    1525 6750
 	1    0    0    -1  
 $EndComp
 $Comp
 L 4xxx:4066 U2
 U 5 1 5F5BECB9
-P 3650 7125
+P 2200 6925
 AR Path="/5F1DEF77/5F5BECB9" Ref="U2"  Part="5" 
 AR Path="/5F5BECB9" Ref="U?"  Part="5" 
-F 0 "U2" H 3880 7171 50  0000 L CNN
-F 1 "4066" H 3880 7080 50  0000 L CNN
-F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 3650 7125 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 3650 7125 50  0001 C CNN
-	5    3650 7125
+F 0 "U2" H 2430 6971 50  0000 L CNN
+F 1 "4066" H 2430 6880 50  0000 L CNN
+F 2 "ao_tht:DIP-14_W7.62mm_Socket_LongPads" H 2200 6925 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 2200 6925 50  0001 C CNN
+	5    2200 6925
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -636,139 +604,41 @@ F 5 "Tayda" H 2750 5400 50  0001 C CNN "Vendor"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2350 2000 2350 2350
+	2850 2250 2850 2300
 Wire Wire Line
 	1300 1200 1500 1200
 Wire Wire Line
-	3000 1750 2450 1750
+	2950 1900 2950 2300
 Wire Wire Line
-	2450 1750 2450 2350
+	2800 1750 3050 1750
 Wire Wire Line
-	3000 1100 3000 1750
+	3050 1750 3050 2300
 Wire Wire Line
-	3000 1750 4200 1750
+	2800 1200 2800 1750
 Wire Wire Line
-	4200 1100 4200 1750
-Connection ~ 3000 1750
+	3900 1750 3150 1750
 Wire Wire Line
-	4200 1750 5400 1750
+	3150 1750 3150 2300
 Wire Wire Line
-	5400 1100 5400 1750
-Connection ~ 4200 1750
+	3900 1200 3900 1750
 Wire Wire Line
-	5400 1750 6600 1750
+	5100 1800 3250 1800
 Wire Wire Line
-	6600 1100 6600 1750
-Connection ~ 5400 1750
+	3250 1800 3250 2300
 Wire Wire Line
-	6600 1750 6850 1750
+	5100 1200 5100 1800
 Wire Wire Line
-	6850 1750 6850 2050
-Connection ~ 6600 1750
+	3350 1850 3350 2300
 Wire Wire Line
-	6850 1750 8050 1750
+	3450 1900 3450 2300
 Wire Wire Line
-	8050 1750 8050 2050
-Connection ~ 6850 1750
+	3550 1950 3550 2300
 Wire Wire Line
-	8050 1750 9250 1750
+	8700 1200 8700 1950
 Wire Wire Line
-	9250 1750 9250 2050
-Connection ~ 8050 1750
+	3650 2000 3650 2300
 Wire Wire Line
-	2350 2000 2350 1700
-Wire Wire Line
-	2350 1700 1300 1700
-Wire Wire Line
-	1300 1700 1300 1300
-Connection ~ 2350 2000
-Wire Wire Line
-	2350 1700 2800 1700
-Wire Wire Line
-	9050 1700 9050 2250
-Connection ~ 2350 1700
-Wire Wire Line
-	7850 2250 7850 1700
-Connection ~ 7850 1700
-Wire Wire Line
-	7850 1700 9050 1700
-Wire Wire Line
-	6650 2250 6650 1700
-Connection ~ 6650 1700
-Wire Wire Line
-	6650 1700 7850 1700
-Wire Wire Line
-	6400 1300 6400 1700
-Connection ~ 6400 1700
-Wire Wire Line
-	6400 1700 6650 1700
-Wire Wire Line
-	5200 1300 5200 1700
-Connection ~ 5200 1700
-Wire Wire Line
-	5200 1700 6400 1700
-Wire Wire Line
-	4000 1300 4000 1700
-Connection ~ 4000 1700
-Wire Wire Line
-	4000 1700 5200 1700
-Wire Wire Line
-	2800 1300 2800 1700
-Connection ~ 2800 1700
-Wire Wire Line
-	2800 1700 4000 1700
-Wire Wire Line
-	2900 1800 2550 1800
-Wire Wire Line
-	2550 1800 2550 2350
-Wire Wire Line
-	2900 1200 2900 1800
-Wire Wire Line
-	4100 1850 2650 1850
-Wire Wire Line
-	2650 1850 2650 2350
-Wire Wire Line
-	4100 1200 4100 1850
-Wire Wire Line
-	5300 1900 2750 1900
-Wire Wire Line
-	2750 1900 2750 2350
-Wire Wire Line
-	5300 1200 5300 1900
-Wire Wire Line
-	6500 1950 2850 1950
-Wire Wire Line
-	2850 1950 2850 2350
-Wire Wire Line
-	6750 2400 5350 2400
-Wire Wire Line
-	5350 2400 5350 2000
-Wire Wire Line
-	5350 2000 2950 2000
-Wire Wire Line
-	2950 2000 2950 2350
-Wire Wire Line
-	6750 2150 6750 2400
-Wire Wire Line
-	7950 2450 5300 2450
-Wire Wire Line
-	5300 2450 5300 2050
-Wire Wire Line
-	5300 2050 3050 2050
-Wire Wire Line
-	3050 2050 3050 2350
-Wire Wire Line
-	7950 2150 7950 2450
-Wire Wire Line
-	9150 2500 5250 2500
-Wire Wire Line
-	5250 2500 5250 2100
-Wire Wire Line
-	5250 2100 3150 2100
-Wire Wire Line
-	3150 2100 3150 2350
-Wire Wire Line
-	9150 2150 9150 2500
+	9900 1200 9900 2000
 Wire Wire Line
 	2700 3100 2700 3200
 $Comp
@@ -791,20 +661,18 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x09 J8
 U 1 1 5F90EFB3
-P 2750 2550
-F 0 "J8" V 2875 2546 50  0000 C CNN
-F 1 "Conn_01x9" V 2950 2650 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 2750 2550 50  0001 C CNN
-F 3 "~" H 2750 2550 50  0001 C CNN
-	1    2750 2550
+P 3250 2500
+F 0 "J8" V 3375 2496 50  0000 C CNN
+F 1 "Conn_01x9" V 3450 2600 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 3250 2500 50  0001 C CNN
+F 3 "~" H 3250 2500 50  0001 C CNN
+	1    3250 2500
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	1500 1200 1500 2450
 Wire Wire Line
 	8550 5450 8550 5250
-Wire Wire Line
-	6500 1200 6500 1950
 Text Label 1300 1900 0    50   ~ 0
 OUT
 Text Label 1300 1200 0    50   ~ 0
@@ -817,16 +685,14 @@ Text Label 4750 1200 0    50   ~ 0
 CVIN_+1
 Text Label 5950 1200 0    50   ~ 0
 CVIN_0
-Text Label 6200 2150 0    50   ~ 0
+Text Label 7150 1200 0    50   ~ 0
 CVIN_-1
-Text Label 7400 2150 0    50   ~ 0
+Text Label 8350 1200 0    50   ~ 0
 CVIN_-2
-Text Label 8600 2150 0    50   ~ 0
+Text Label 9550 1200 0    50   ~ 0
 CVIN_-3
 Text Label 8400 5250 0    50   ~ 0
 SLEW
-Text Notes 650  800  0    50   ~ 0
-In and out jacks connect to Barton PCB  \nvia wires with Molex connectors
 $Comp
 L ao_symbols:2_pin_Molex_header J5
 U 1 1 5F904528
@@ -852,22 +718,20 @@ F 4 "DNF" H 9400 5200 50  0001 C CNN "Config"
 	1    9400 5200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1300 2000 2050 2000
 $Comp
 L power:GND1 #PWR015
 U 1 1 6111643C
-P 2050 2000
-F 0 "#PWR015" H 2050 1750 50  0001 C CNN
-F 1 "GND1" H 2055 1827 50  0000 C CNN
-F 2 "" H 2050 2000 50  0001 C CNN
-F 3 "" H 2050 2000 50  0001 C CNN
-	1    2050 2000
+P 2550 2250
+F 0 "#PWR015" H 2550 2000 50  0001 C CNN
+F 1 "GND1" H 2555 2077 50  0000 C CNN
+F 2 "" H 2550 2250 50  0001 C CNN
+F 3 "" H 2550 2250 50  0001 C CNN
+	1    2550 2250
 	1    0    0    -1  
 $EndComp
-Connection ~ 2050 2000
+Connection ~ 2550 2250
 Wire Wire Line
-	2050 2000 2350 2000
+	2550 2250 2850 2250
 $Comp
 L power:PWR_FLAG #FLG02
 U 1 1 6115EB42
@@ -899,12 +763,12 @@ Wire Wire Line
 $Comp
 L power:PWR_FLAG #FLG01
 U 1 1 6115F00C
-P 2050 2000
-F 0 "#FLG01" H 2050 2075 50  0001 C CNN
-F 1 "PWR_FLAG" H 2050 2173 50  0000 C CNN
-F 2 "" H 2050 2000 50  0001 C CNN
-F 3 "~" H 2050 2000 50  0001 C CNN
-	1    2050 2000
+P 2550 2250
+F 0 "#FLG01" H 2550 2325 50  0001 C CNN
+F 1 "PWR_FLAG" H 2550 2423 50  0000 C CNN
+F 2 "" H 2550 2250 50  0001 C CNN
+F 3 "~" H 2550 2250 50  0001 C CNN
+	1    2550 2250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1292,8 +1156,8 @@ $Comp
 L Connector_Generic:Conn_01x09 J9
 U 1 1 5F97711E
 P 3250 2900
-F 0 "J9" V 3467 2896 50  0000 C CNN
-F 1 "Conn_01x9" V 3376 2896 50  0000 C CNN
+F 0 "J9" V 3250 3600 50  0000 C CNN
+F 1 "Conn_01x9" V 3150 3600 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical" H 3250 2900 50  0001 C CNN
 F 3 "~" H 3250 2900 50  0001 C CNN
 	1    3250 2900
@@ -1735,4 +1599,185 @@ F 4 "DNF" H 9400 5500 50  0001 C CNN "Config"
 	1    9400 5500
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND1 #PWR?
+U 1 1 614CCCF2
+P 1350 1350
+F 0 "#PWR?" H 1350 1100 50  0001 C CNN
+F 1 "GND1" H 1355 1177 50  0000 C CNN
+F 2 "" H 1350 1350 50  0001 C CNN
+F 3 "" H 1350 1350 50  0001 C CNN
+	1    1350 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR?
+U 1 1 614CD146
+P 1300 2100
+F 0 "#PWR?" H 1300 1850 50  0001 C CNN
+F 1 "GND1" H 1305 1927 50  0000 C CNN
+F 2 "" H 1300 2100 50  0001 C CNN
+F 3 "" H 1300 2100 50  0001 C CNN
+	1    1300 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 2100 1300 2000
+Wire Wire Line
+	1300 1300 1350 1300
+Wire Wire Line
+	1350 1300 1350 1350
+$Comp
+L power:GND1 #PWR?
+U 1 1 614E8450
+P 2550 1400
+F 0 "#PWR?" H 2550 1150 50  0001 C CNN
+F 1 "GND1" H 2555 1227 50  0000 C CNN
+F 2 "" H 2550 1400 50  0001 C CNN
+F 3 "" H 2550 1400 50  0001 C CNN
+	1    2550 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR?
+U 1 1 614E869F
+P 3650 1400
+F 0 "#PWR?" H 3650 1150 50  0001 C CNN
+F 1 "GND1" H 3655 1227 50  0000 C CNN
+F 2 "" H 3650 1400 50  0001 C CNN
+F 3 "" H 3650 1400 50  0001 C CNN
+	1    3650 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR?
+U 1 1 614E8A75
+P 4850 1400
+F 0 "#PWR?" H 4850 1150 50  0001 C CNN
+F 1 "GND1" H 4855 1227 50  0000 C CNN
+F 2 "" H 4850 1400 50  0001 C CNN
+F 3 "" H 4850 1400 50  0001 C CNN
+	1    4850 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR?
+U 1 1 614E8D73
+P 6050 1400
+F 0 "#PWR?" H 6050 1150 50  0001 C CNN
+F 1 "GND1" H 6055 1227 50  0000 C CNN
+F 2 "" H 6050 1400 50  0001 C CNN
+F 3 "" H 6050 1400 50  0001 C CNN
+	1    6050 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR?
+U 1 1 614E8FC7
+P 7250 1400
+F 0 "#PWR?" H 7250 1150 50  0001 C CNN
+F 1 "GND1" H 7255 1227 50  0000 C CNN
+F 2 "" H 7250 1400 50  0001 C CNN
+F 3 "" H 7250 1400 50  0001 C CNN
+	1    7250 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR?
+U 1 1 6150A2A0
+P 8450 1400
+F 0 "#PWR?" H 8450 1150 50  0001 C CNN
+F 1 "GND1" H 8455 1227 50  0000 C CNN
+F 2 "" H 8450 1400 50  0001 C CNN
+F 3 "" H 8450 1400 50  0001 C CNN
+	1    8450 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR?
+U 1 1 6150A7ED
+P 9650 1400
+F 0 "#PWR?" H 9650 1150 50  0001 C CNN
+F 1 "GND1" H 9655 1227 50  0000 C CNN
+F 2 "" H 9650 1400 50  0001 C CNN
+F 3 "" H 9650 1400 50  0001 C CNN
+	1    9650 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 1300 7250 1300
+Wire Wire Line
+	7250 1300 7250 1400
+Wire Wire Line
+	8350 1300 8450 1300
+Wire Wire Line
+	8450 1300 8450 1400
+Wire Wire Line
+	9550 1300 9650 1300
+Wire Wire Line
+	9650 1300 9650 1400
+Text GLabel 2800 1100 2    50   Input ~ 0
+J10V
+Wire Wire Line
+	2800 1100 2450 1100
+Wire Wire Line
+	2450 1300 2550 1300
+Wire Wire Line
+	2550 1300 2550 1400
+Wire Wire Line
+	3550 1300 3650 1300
+Wire Wire Line
+	3650 1300 3650 1400
+Text GLabel 3900 1100 2    50   Input ~ 0
+J10V
+Wire Wire Line
+	3900 1100 3550 1100
+Text GLabel 5100 1100 2    50   Input ~ 0
+J10V
+Text GLabel 6300 1100 2    50   Input ~ 0
+J10V
+Wire Wire Line
+	6300 1100 5950 1100
+Wire Wire Line
+	5100 1100 4750 1100
+Wire Wire Line
+	4750 1300 4850 1300
+Wire Wire Line
+	4850 1300 4850 1400
+Wire Wire Line
+	5950 1300 6050 1300
+Wire Wire Line
+	6050 1300 6050 1400
+Text GLabel 7500 1100 2    50   Input ~ 0
+J10V
+Wire Wire Line
+	7500 1100 7150 1100
+Text GLabel 8700 1100 2    50   Input ~ 0
+J10V
+Wire Wire Line
+	8700 1100 8350 1100
+Text GLabel 9900 1100 2    50   Input ~ 0
+J10V
+Wire Wire Line
+	9900 1100 9550 1100
+Text GLabel 2650 1900 0    50   Output ~ 0
+J10V
+Wire Wire Line
+	2950 1900 2650 1900
+Text Notes 650  800  0    50   ~ 0
+In and out jacks connect to Barton PCB  \nvia wires with Molex connectors
+Wire Wire Line
+	6300 1850 3350 1850
+Wire Wire Line
+	5950 1200 6300 1200
+Wire Wire Line
+	6300 1200 6300 1850
+Wire Wire Line
+	7500 1200 7500 1900
+Wire Wire Line
+	3450 1900 7500 1900
+Wire Wire Line
+	3550 1950 8700 1950
+Wire Wire Line
+	3650 2000 9900 2000
 $EndSCHEMATC
